@@ -1,0 +1,16 @@
+{
+	"binaryFormat":true,
+	"codeGeneration":{
+		"classNamePrefix":"UI",
+		"codePath":"C:\\Users\\3plus-9\\Desktop\\FGUIExport\\Scripts",
+		"codeType":"",
+		"getMemberByName":true,
+		"ignoreNoname":false,
+		"memberNamePrefix":"m",
+		"packageName":""
+	},
+	"compressDesc":true,
+	"fileExtension":"",
+	"packageCount":2,
+	"path":"C:\\Users\\3plus-9\\Desktop\\FGUIExport"
+}
