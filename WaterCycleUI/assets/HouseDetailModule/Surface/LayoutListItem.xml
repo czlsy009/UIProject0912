@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <graph id="n2_p1pn" name="Bg" xy="0,0" size="500,500" type="rect"/>
+    <component id="n7_p1pn" name="LayoutItemIcon" src="iqvsg" fileName="Surface/LayoutItemIcon.xml" xy="0,0">
+      <Button icon="ui://xc3zat8liqvsh"/>
+    </component>
+    <graph id="n4_p1pn" name="SeperateLine" xy="0,425" size="500,1" type="rect"/>
+    <text id="n6_p1pn" name="HouseName" xy="0,312" size="500,45" fontSize="30" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="万科未来城"/>
+    <text id="n8_p1pn" name="HouseTypeAndAreaSize" xy="11,362" size="477,45" fontSize="30" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="2室0厅1卫1厨|建筑面积 90㎡"/>
+    <component id="n3_p1pn" name="LayoutDetailButton" src="p1pna" fileName="Surface/Components/LayoutDetailButton.xml" xy="0,430"/>
+  </displayList>
+</component>

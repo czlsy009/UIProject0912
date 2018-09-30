@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="xlgtj8re" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="p1pn0" name="MainPage.xml" path="/Surface/" exported="true"/>
+    <component id="p1pn1" name="ModuleSelectButton.xml" path="/Surface/MainPageComponents/"/>
+    <component id="p1pn2" name="UserModuleButton.xml" path="/Surface/MainPageComponents/"/>
+  </resources>
+  <publish name="MainModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\MainModule" genCode="true"/>
+</packageDescription>

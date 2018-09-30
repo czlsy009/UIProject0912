@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <displayList>
+    <graph id="n0_p1pn" name="n0" xy="0,0" size="2560,100" type="rect"/>
+    <component id="n1_p1pn" name="BackButton" src="p1pn1" fileName="Surface/BackButton.xml" xy="0,0"/>
+    <text id="n2_p1pn" name="n2" xy="0,0" size="2560,100" fontSize="60" align="center" vAlign="middle" autoSize="none" text="房源信息确认"/>
+    <graph id="n3_p1pn" name="n3" xy="0,100" size="2560,1500" type="rect"/>
+    <text id="n4_p1pn" name="n4" xy="0,100" size="2560,100" fontSize="48" vAlign="middle" autoSize="none" text="*晓家平台向您承诺，您提交的信息仅限用于您房间设计，不会对外展示或其他用途。"/>
+    <text id="n5_p1pn" name="n5" xy="1053,221" size="453,70" fontSize="48" align="center" vAlign="middle" autoSize="none" text="房源信息确认"/>
+    <text id="n6_p1pn" name="n6" xy="708,329" size="190,70" fontSize="48" align="center" vAlign="middle" autoSize="none" text="*城市："/>
+    <component id="n7_p1pn" name="LocationButton" src="p1pn2" fileName="Surface/HouseInfoConfirmLocationButton.xml" xy="1052,313"/>
+    <text id="n8_p1pn" name="n8" xy="505,437" size="394,70" fontSize="48" align="center" vAlign="middle" autoSize="none" text="*小区名称："/>
+    <text id="n9_p1pn" name="n9" xy="508,570" size="394,70" fontSize="48" align="center" vAlign="middle" autoSize="none" text="门牌号："/>
+    <text id="n10_p1pn" name="n10" xy="506,700" size="394,70" fontSize="48" align="center" vAlign="middle" autoSize="none" text="*户型图名称："/>
+    <text id="n11_p1pn" name="n11" xy="504,833" size="394,70" fontSize="48" align="center" vAlign="middle" autoSize="none" text="户型图："/>
+    <loader id="n12_p1pn" name="LayoutPicLoader" xy="1002,842" size="415,317" align="center" vAlign="middle" fill="scale"/>
+    <text id="n13_p1pn" name="n13" xy="504,1191" size="394,70" fontSize="48" align="center" vAlign="middle" autoSize="none" text="原始户型："/>
+    <text id="n14_p1pn" name="n14" xy="503,1302" size="394,70" fontSize="48" align="center" vAlign="middle" autoSize="none" text="建筑面积："/>
+    <text id="n15_p1pn" name="CommunityNameInputField" xy="1053,438" size="1289,70" input="true" prompt="请输入小区名称" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <text id="n16_p1pn" name="HouseNumberInputField" xy="1048,575" size="1289,70" input="true" prompt="请输入所在楼和单元" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <text id="n17_p1pn" name="LayoutNameInputField" xy="1046,701" size="1289,70" input="true" prompt="请输入户型图名称" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <text id="n18_p1pn" name="OriginLayoutText" xy="1008,1191" size="1289,70" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <text id="n19_p1pn" name="FoorAreaInputField" xy="1003,1308" size="1289,70" input="true" prompt="请输入建筑面积" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <component id="n20_p1pn" name="ReChooseButton" src="p1pn3" fileName="Surface/ReChooseButton.xml" xy="1491,1059"/>
+    <component id="n21_p1pn" name="ConfirmCreatButton" src="p1pn4" fileName="Surface/ConfirmCreatButton.xml" xy="1030,1454" touchable="false" grayed="true"/>
+  </displayList>
+</component>

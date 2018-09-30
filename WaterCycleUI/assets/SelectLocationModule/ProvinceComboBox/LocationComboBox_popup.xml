@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,900">
+  <displayList>
+    <graph id="n0_iqvs" name="n0" xy="0,0" size="500,900" touchable="false" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n1_iqvs" name="list" xy="0,0" size="500,900" overflow="scroll" defaultItem="ui://sl21z51miqvs5" align="center">
+      <relation target="" sidePair="width-width"/>
+    </list>
+  </displayList>
+  <relation target="n1_iqvs" sidePair="height-height"/>
+</component>

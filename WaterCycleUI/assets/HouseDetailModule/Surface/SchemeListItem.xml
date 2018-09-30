@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <graph id="n2_p1pn" name="Bg" xy="0,0" size="500,500" type="rect"/>
+    <component id="n10_iqvs" name="SchemeItemIcon" src="iqvsi" fileName="Surface/SchemeItemIcon.xml" xy="0,0"/>
+    <graph id="n4_p1pn" name="SeperateLine" xy="0,425" size="500,1" type="rect"/>
+    <text id="n6_p1pn" name="SchemeNameText" xy="0,312" size="500,45" fontSize="30" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="万科未来城"/>
+    <text id="n8_p1pn" name="DescriptionText" xy="11,362" size="477,45" fontSize="30" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="2室0厅1卫1厨|建筑面积 90㎡"/>
+    <component id="n9_p1pn" name="MultiSightReviewButton" src="p1pnb" fileName="Surface/Components/HouseDetailMultiSightReviewButton.xml" xy="100,430"/>
+  </displayList>
+</component>

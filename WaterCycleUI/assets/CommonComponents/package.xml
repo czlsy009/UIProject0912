@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="xwplcvoa" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="p1pn0" name="LoadDataTipText.xml" path="/Surface/" exported="true"/>
+  </resources>
+  <publish name="CommonComponents" path="G:\GitHub\UnityAppMVCFramework\Framework\Assets\SelfCreated\LoginModule\Resources\UI\CommonComponents" genCode="true"/>
+</packageDescription>

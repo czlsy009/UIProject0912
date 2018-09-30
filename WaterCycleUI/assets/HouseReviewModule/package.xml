@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="s2he82mh" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="iqvs0" name="HouseReviewPage.xml" path="/Surface/" exported="true"/>
+    <component id="iqvs2" name="HouseReviewUseButton.xml" path="/Surface/Components/"/>
+    <component id="iqvs3" name="CloseHouseReviewButton.xml" path="/Surface/Components/"/>
+  </resources>
+  <publish name="HouseReviewModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\HouseReviewModule" genCode="true"/>
+</packageDescription>

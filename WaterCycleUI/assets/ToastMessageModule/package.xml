@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="s3oxpmex" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="iqvs0" name="ToastMessage.xml" path="/Surface/" exported="true"/>
+  </resources>
+  <publish name="ToastMessageModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\ToastMessageModule" genCode="true"/>
+</packageDescription>

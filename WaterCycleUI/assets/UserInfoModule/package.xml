@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="xl56qh8c" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="p1pn0" name="UserInforModule.xml" path="/Surface/" exported="true"/>
+    <component id="p1pn1" name="NavButton.xml" path="/Surface/UserInfoModuleComponents/"/>
+    <component id="p1pn2" name="LogoutButton.xml" path="/Surface/UserInfoModuleComponents/"/>
+    <component id="p1pn3" name="SavaButton.xml" path="/Surface/UserInfoModuleComponents/"/>
+    <component id="p1pn4" name="SexSelectButton.xml" path="/Surface/UserInfoModuleComponents/"/>
+    <component id="p1pn5" name="ConfirmModifyButton.xml" path="/Surface/UserInfoModuleComponents/"/>
+  </resources>
+  <publish name="UserInfoModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\UserInfoModule" genCode="true"/>
+</packageDescription>

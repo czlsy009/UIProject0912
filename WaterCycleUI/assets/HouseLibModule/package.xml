@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="x6s0qorc" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="p1pn0" name="HouseLibModule.xml" path="/Surface/" exported="true"/>
+    <component id="p1pn1" name="HouseLibListItem.xml" path="/Surface/" exported="true"/>
+    <component id="p1pn2" name="HouseReviewButton.xml" path="/Surface/HouseLibModuleComponents/"/>
+    <component id="p1pn3" name="UseHouseButton.xml" path="/Surface/HouseLibModuleComponents/"/>
+    <component id="p1pn4" name="LocationButton.xml" path="/Surface/HouseLibModuleComponents/"/>
+    <component id="p1pn6" name="SearchHouseButton.xml" path="/Surface/HouseLibModuleComponents/"/>
+    <component id="p1pn7" name="HouseTypeFilterButton.xml" path="/Surface/HouseLibModuleComponents/"/>
+  </resources>
+  <publish name="HouseLibModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\HouseLibModule" genCode="true"/>
+</packageDescription>

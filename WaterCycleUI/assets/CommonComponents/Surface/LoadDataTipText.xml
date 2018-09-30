@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,70" initName="LoadDataTipText">
+  <controller name="c1" exported="true" pages="2,Tip,0,Loading,1,NoMore" selected="2"/>
+  <displayList>
+    <text id="n0_p1pn" name="n0" xy="68,0" size="431,70" fontSize="40" align="center" vAlign="middle" autoSize="none" text="没有更多啦！">
+      <gearText controller="c1" pages="2,1" values="下拉加载更多|没有更多啦！" default="正在加载，请稍候..."/>
+    </text>
+    <loader id="n1_p1pn" name="n1" xy="0,0" size="70,70" align="center" vAlign="middle"/>
+  </displayList>
+</component>

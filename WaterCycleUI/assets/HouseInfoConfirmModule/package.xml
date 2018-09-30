@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="x4e8xtwt" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="p1pn0" name="HouseInfoConfirmPage.xml" path="/Surface/" exported="true"/>
+    <component id="p1pn1" name="BackButton.xml" path="/Surface/"/>
+    <component id="p1pn2" name="HouseInfoConfirmLocationButton.xml" path="/Surface/"/>
+    <component id="p1pn3" name="ReChooseButton.xml" path="/Surface/"/>
+    <component id="p1pn4" name="ConfirmCreatButton.xml" path="/Surface/"/>
+  </resources>
+  <publish name="HouseInfoConfirmModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\HouseInfoConfirmModule" genCode="true"/>
+</packageDescription>

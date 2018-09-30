@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,430" extention="Button" initName="LayoutItemIcon">
+  <displayList>
+    <graph id="n8_iqvs" name="n8" xy="0,0" size="500,430" type="rect"/>
+    <loader id="n7_p1pn" name="icon" xy="0,0" size="500,430" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>

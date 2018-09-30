@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="x2ba5l6p" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="p1pn0" name="LayoutReviewPage.xml" path="/Surface/" exported="true"/>
+    <component id="p1pn1" name="LayoutReviewEditInfoButton.xml" path="/Surface/Components/"/>
+    <component id="p1pn3" name="LayoutReviewDeleteButton.xml" path="/Surface/Components/"/>
+    <component id="p1pn4" name="CloseLayoutReviewButton.xml" path="/Surface/Components/"/>
+  </resources>
+  <publish name="LayoutReviewModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\LayoutReviewModule" genCode="true"/>
+</packageDescription>

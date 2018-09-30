@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2460,1280">
+  <controller name="c1" pages="0,BaseInfo,1,ModifyPassword" selected="0"/>
+  <displayList>
+    <graph id="n26_p1pn" name="n26" xy="0,0" size="2460,1280" type="rect"/>
+    <loader id="n2_p1pn" name="Bg" xy="0,0" size="2460,1280"/>
+    <loader id="n0_p1pn" name="NavBarBg" xy="0,0" size="2460,156"/>
+    <list id="n3_p1pn" name="n3" xy="175,8" size="1034,140" layout="row" overflow="scroll" colGap="100" defaultItem="ui://xl56qh8cp1pn1" selectionController="c1">
+      <item title="基本信息"/>
+      <item title="修改密码"/>
+    </list>
+    <component id="n4_p1pn" name="LogoutButton" src="p1pn2" fileName="Surface/UserInfoModuleComponents/LogoutButton.xml" xy="1963,8"/>
+    <text id="n5_p1pn" name="n5" xy="643,236" size="200,70" group="n17_p1pn" fontSize="48" align="right" vAlign="middle" autoSize="none" singleLine="true" text="头像："/>
+    <text id="n6_p1pn" name="n6" xy="643,348" size="200,70" group="n17_p1pn" fontSize="48" align="right" vAlign="middle" autoSize="none" singleLine="true" text="*昵称："/>
+    <text id="n7_p1pn" name="n7" xy="643,475" size="200,70" group="n17_p1pn" fontSize="48" align="right" vAlign="middle" autoSize="none" singleLine="true" text="手机号："/>
+    <text id="n8_p1pn" name="n8" xy="643,620" size="200,70" group="n17_p1pn" fontSize="48" align="right" vAlign="middle" autoSize="none" singleLine="true" text="性别："/>
+    <text id="n9_p1pn" name="n9" xy="643,757" size="200,70" group="n17_p1pn" fontSize="48" align="right" vAlign="middle" autoSize="none" singleLine="true" text="邮箱："/>
+    <text id="n10_p1pn" name="n10" xy="643,904" size="200,70" group="n17_p1pn" fontSize="48" align="right" vAlign="middle" autoSize="none" singleLine="true" text="所在地："/>
+    <text id="n11_p1pn" name="UserNickInputField" xy="948,348" size="737,70" group="n17_p1pn" input="true" prompt="请输入6-16位昵称" maxLength="16" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <loader id="n12_p1pn" name="UserHead" xy="948,225" size="100,100" group="n17_p1pn" align="center" vAlign="middle" fill="scale"/>
+    <text id="n13_p1pn" name="PhoneNumberText" xy="948,475" size="737,70" group="n17_p1pn" input="true" fontSize="48" vAlign="middle" autoSize="none" autoClearText="true" text="17778189826"/>
+    <text id="n14_p1pn" name="EmailInputField" xy="948,757" size="737,70" group="n17_p1pn" input="true" prompt="请输入邮箱地址" maxLength="16" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <component id="n15_p1pn" name="SavaButton" src="p1pn3" fileName="Surface/UserInfoModuleComponents/SavaButton.xml" xy="980,1069" group="n17_p1pn" touchable="false" grayed="true"/>
+    <list id="n16_p1pn" name="SexSelectButtonList" xy="947,620" size="737,70" group="n17_p1pn" layout="row" overflow="scroll" colGap="100" defaultItem="ui://xl56qh8cp1pn4" vAlign="middle">
+      <item title="保密"/>
+      <item title="男"/>
+      <item title="女"/>
+    </list>
+    <group id="n17_p1pn" name="BaseInfoGroup" xy="643,225" size="1042,984" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <text id="n18_p1pn" name="OriginPasswordInputField" xy="1020,289" size="619,70" group="n25_p1pn" input="true" prompt="请输入原始密码" password="true" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <text id="n19_p1pn" name="n19" xy="697,289" size="245,70" group="n25_p1pn" fontSize="48" vAlign="middle" singleLine="true" text="原始密码："/>
+    <text id="n20_p1pn" name="n20" xy="746,454" size="197,70" group="n25_p1pn" fontSize="48" vAlign="middle" singleLine="true" text="新密码："/>
+    <text id="n21_p1pn" name="n21" xy="697,606" size="245,70" group="n25_p1pn" fontSize="48" vAlign="middle" singleLine="true" text="确认密码："/>
+    <text id="n22_p1pn" name="NewPasswordInput" xy="1020,454" size="619,70" group="n25_p1pn" input="true" prompt="请输入6-16位新密码" maxLength="16" password="true" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <text id="n23_p1pn" name="ConfirmPasswordInputField" xy="1020,606" size="619,70" group="n25_p1pn" input="true" prompt="请再次输入新密码" maxLength="16" password="true" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <component id="n24_p1pn" name="ConfirmModifyButton" src="p1pn5" fileName="Surface/UserInfoModuleComponents/ConfirmModifyButton.xml" xy="989,836" group="n25_p1pn" touchable="false" grayed="true"/>
+    <group id="n25_p1pn" name="ModifyPasswordGroup" xy="697,289" size="942,697" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <graph id="n2_p1pn" name="Bg" xy="0,0" size="500,500" type="rect"/>
+    <component id="n1_p1pn" name="MyhomeButton" src="p1pn2" fileName="MyhomeButtonSurface.xml" xy="0,0"/>
+    <component id="n3_p1pn" name="MultiSightReviewButton" src="p1pn3" fileName="MultiSightReviewButtonSurface.xml" xy="100,420"/>
+  </displayList>
+</component>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <displayList>
+    <graph id="n0_iqvs" name="n0" xy="0,0" size="2560,1600" type="rect" fillColor="#b3000000"/>
+    <component id="n1_iqvs" name="ProvinceCombox" src="iqvs7" fileName="ProvinceComboBox/LocationComboBox.xml" xy="188,120">
+      <ComboBox title="请选择省份" visibleItemCount="6" direction="down">
+        <item title="1" icon="ui://sl21z51miqvs5"/>
+        <item title="2" icon="ui://sl21z51miqvs5"/>
+        <item title="3" icon="ui://sl21z51miqvs5"/>
+        <item title="4" icon="ui://sl21z51miqvs5"/>
+        <item icon="ui://sl21z51miqvs5"/>
+        <item icon="ui://sl21z51miqvs5"/>
+        <item icon="ui://sl21z51miqvs5"/>
+        <item icon="ui://sl21z51miqvs5"/>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+      </ComboBox>
+    </component>
+    <component id="n2_iqvs" name="CityComboBox" src="iqvs7" fileName="ProvinceComboBox/LocationComboBox.xml" xy="1356,120">
+      <ComboBox title="请选择城市" visibleItemCount="6" direction="down"/>
+    </component>
+    <component id="n3_iqvs" name="ConfirmButton" src="iqvsa" fileName="ConfirmLocationButton.xml" xy="188,1236" touchable="false" grayed="true">
+      <Button title="确定"/>
+    </component>
+    <component id="n4_iqvs" name="CloseButton" src="iqvsb" fileName="CloseSelectLocationButton.xml" xy="1356,1236">
+      <Button title="取消"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="syioo4ay" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="iqvs0" name="ModifyPersonalHouseInfoPage.xml" path="/Surface/" exported="true"/>
+    <component id="iqvs1" name="ModifyPersonalHouseInfoLocationButton.xml" path="/Surface/Components/"/>
+    <component id="iqvs2" name="ConfirmHouseInfoModifyButton.xml" path="/Surface/Components/"/>
+    <component id="iqvs3" name="CloseModifyButton.xml" path="/Surface/Components/"/>
+  </resources>
+  <publish name="ModifyPersonalHouseInfoModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\ModifyPersonalHouseInfoModule" genCode="true"/>
+</packageDescription>

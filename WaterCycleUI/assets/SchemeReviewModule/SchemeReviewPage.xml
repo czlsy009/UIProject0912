@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <displayList>
+    <graph id="n0_p1pn" name="Bg" xy="0,0" size="2560,1600" type="rect" fillColor="#b3000000"/>
+    <graph id="n1_p1pn" name="n1" xy="128,135" size="2302,1328" type="rect"/>
+    <text id="n2_p1pn" name="SchemeNameText" xy="230,214" size="617,59" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text="方案名"/>
+    <text id="n3_p1pn" name="DescriptionText" xy="237,317" size="617,59" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text="方案描述"/>
+    <text id="n4_p1pn" name="n2" xy="254,620" size="413,70" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text="房源户型信息"/>
+    <text id="n5_p1pn" name="CommunityNameText" xy="253,709" size="617,59" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text="小区名"/>
+    <text id="n6_p1pn" name="HouseTypeAndAreaText" xy="254,818" size="617,59" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text="户型和面积"/>
+    <component id="n7_p1pn" name="EditInfoButton" src="p1pn3" fileName="Components/SchemReviewEditInfoButton.xml" xy="764,598">
+      <Button title="Edit" titleFontSize="36"/>
+    </component>
+    <component id="n8_p1pn" name="MultiSightReviewButton" src="p1pn4" fileName="Components/SchemeReviewMultiSightReviewButton.xml" xy="359,1087"/>
+    <component id="n9_p1pn" name="DeleteButton" src="p1pn5" fileName="Components/SchemeReviewDeleteButton.xml" xy="359,1211"/>
+    <loader id="n10_p1pn" name="ReviewPicLoader" xy="967,189" size="1317,1220" align="center" vAlign="middle" fill="scale"/>
+    <component id="n11_p1pn" name="CloseLayoutReviewButton" src="p1pn6" fileName="Components/CloseSchemeReviewButton.xml" xy="2307,158">
+      <Button title="close" titleFontSize="31"/>
+    </component>
+  </displayList>
+</component>

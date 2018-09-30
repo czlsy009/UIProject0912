@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2460,1280">
+  <displayList>
+    <graph id="n0_p1pn" name="1" xy="0,0" size="2460,1280" type="rect"/>
+    <loader id="n1_p1pn" name="Bg" xy="0,0" size="2460,1280"/>
+    <text id="n2_p1pn" name="title" xy="97,77" size="200,70" fontSize="48" singleLine="true" text="我的晓家"/>
+    <graph id="n3_p1pn" name="SeperateLine" xy="0,204" size="2460,2" type="rect"/>
+    <list id="n5_p1pn" name="MyHomeList" xy="0,206" size="2460,1004" layout="flow_hz" overflow="scroll" margin="50,50,50,50" lineGap="50" colGap="50" defaultItem="ui://x4sh6wmip1pn4" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_p1pn" name="LoadDataTipText" src="p1pn0" fileName="Surface/LoadDataTipText.xml" pkg="xwplcvoa" xy="980,1210" controller="c1,2"/>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <displayList>
+    <graph id="n0_p1pn" name="Bg" xy="0,0" size="2560,1600" type="rect" fillColor="#b3000000"/>
+    <graph id="n1_p1pn" name="n1" xy="128,135" size="2302,1328" type="rect"/>
+    <loader id="n10_p1pn" name="ReviewPicLoader" xy="225,189" size="2058,956" align="center" vAlign="middle" fill="scale"/>
+    <text id="n5_p1pn" name="CommunityNameText" xy="570,1193" size="603,70" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <text id="n6_p1pn" name="HouseTypeAndAreaText" xy="1315,1193" size="798,70" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <component id="n9_p1pn" name="UseButton" src="iqvs2" fileName="Surface/Components/HouseReviewUseButton.xml" xy="767,1332"/>
+    <component id="n11_p1pn" name="CloseButton" src="iqvs3" fileName="Surface/Components/CloseHouseReviewButton.xml" xy="1543,1332"/>
+  </displayList>
+</component>

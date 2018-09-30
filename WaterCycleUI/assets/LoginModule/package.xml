@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="toz5ngg2" jpegQuality="80" compressPNG="true">
   <resources>
-    <component id="xbac0" name="LoginPageFlat.xml" path="/Flat/" exported="true"/>
-    <component id="xbac2" name="LoginButtonFlat.xml" path="/Flat/LoginPageComponents/"/>
-    <component id="kp3vc" name="SignUpButtonFlat.xml" path="/Flat/LoginPageComponents/"/>
-    <component id="kp3vd" name="ForgotPasswordButtonFlat.xml" path="/Flat/LoginPageComponents/"/>
-    <component id="kp3ve" name="TitleFlat.xml" path="/Flat/"/>
-    <component id="kp3vh" name="ForgotPasswordButton.xml" path="/Phone/LoginPageComponents/"/>
-    <component id="kp3vi" name="LoginButton.xml" path="/Phone/LoginPageComponents/"/>
-    <component id="kp3vj" name="SignUpButton.xml" path="/Phone/LoginPageComponents/"/>
-    <component id="kp3vk" name="Title.xml" path="/Phone/"/>
-    <component id="kp3vl" name="LoginPage.xml" path="/Phone/" exported="true"/>
-    <component id="kp3vm" name="SignUpPageFlat.xml" path="/Flat/" exported="true"/>
-    <component id="kp3vn" name="SendCodeButtonFlat.xml" path="/Flat/SignPageComponents/"/>
-    <component id="kp3vo" name="AgreeCheckingButtonFlat.xml" path="/Flat/SignPageComponents/"/>
+    <component id="xbac0" name="LoginPage.xml" path="/Surface/" exported="true"/>
+    <component id="xbac2" name="LoginButton.xml" path="/Surface/LoginPageComponents/"/>
+    <component id="kp3vc" name="SignUpButton.xml" path="/Surface/LoginPageComponents/"/>
+    <component id="kp3vd" name="ForgotPasswordButton.xml" path="/Surface/LoginPageComponents/"/>
+    <component id="kp3ve" name="Title.xml" path="/Surface/"/>
     <image id="kp3vp" name="check-box-outline-blank.png" path="/Pics/"/>
     <image id="kp3vq" name="check-box.png" path="/Pics/"/>
-    <component id="kp3vs" name="ShowAgreementButtonFlat.xml" path="/Flat/SignPageComponents/"/>
-    <component id="kp3vt" name="SignButtonFlat.xml" path="/Flat/SignPageComponents/"/>
-    <component id="kp3vu" name="ToLoginButtonFlat.xml" path="/Flat/SignPageComponents/"/>
-    <component id="kp3v10" name="AgreementTextFlat.xml" path="/Flat/SignPageComponents/"/>
-    <component id="kp3v11" name="CloseAgreementButtonFlat.xml" path="/Flat/SignPageComponents/"/>
-    <component id="kp3v12" name="AgreeCheckingButton.xml" path="/Phone/SignPageComponents/"/>
-    <component id="kp3v13" name="AgreementText.xml" path="/Phone/SignPageComponents/"/>
-    <component id="kp3v14" name="CloseAgreementButton.xml" path="/Phone/SignPageComponents/"/>
-    <component id="kp3v15" name="SendCodeButton.xml" path="/Phone/SignPageComponents/"/>
-    <component id="kp3v16" name="ShowAgreementButton.xml" path="/Phone/SignPageComponents/"/>
-    <component id="kp3v17" name="SignButton.xml" path="/Phone/SignPageComponents/"/>
-    <component id="kp3v18" name="ToLoginButton.xml" path="/Phone/SignPageComponents/"/>
-    <component id="kp3v19" name="SignUpPage.xml" path="/Phone/" exported="true"/>
-    <component id="kp3v1a" name="ForgotPasswordPage.xml" path="/Flat/"/>
   </resources>
-  <publish name="LoginModule" genCode="true"/>
+  <publish name="LoginModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\LoginModule" genCode="true"/>
 </packageDescription>

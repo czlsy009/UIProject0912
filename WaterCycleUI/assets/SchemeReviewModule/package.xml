@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="x966wf8i" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="p1pn2" name="SchemeReviewPage.xml" path="/" exported="true"/>
+    <component id="p1pn3" name="SchemReviewEditInfoButton.xml" path="/Components/"/>
+    <component id="p1pn4" name="SchemeReviewMultiSightReviewButton.xml" path="/Components/"/>
+    <component id="p1pn5" name="SchemeReviewDeleteButton.xml" path="/Components/"/>
+    <component id="p1pn6" name="CloseSchemeReviewButton.xml" path="/Components/"/>
+  </resources>
+  <publish name="SchemeReviewModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\SchemeReviewModule" genCode="true"/>
+</packageDescription>

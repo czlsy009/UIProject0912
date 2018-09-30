@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="x78948gd" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="p1pn0" name="ForgotPasswordPage.xml" path="/" exported="true"/>
+    <component id="p1pn1" name="ForgotPasswordTitle.xml" path="/"/>
+    <component id="p1pn2" name="ForgotSendCodeButton.xml" path="/ForgotPasswordPageComponents/"/>
+    <component id="p1pn3" name="NextStepButton.xml" path="/ForgotPasswordPageComponents/"/>
+    <component id="p1pn4" name="CancelButton.xml" path="/ForgotPasswordPageComponents/"/>
+  </resources>
+  <publish name="ForgotPasswordModule" path="G:\GitHub\UnityAppMVCFramework\Framework\Assets\SelfCreated\LoginModule\Resources\UI\ForgotPasswordModule" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="xxde3xxd" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="p1pn0" name="ResetPasswordPage.xml" path="/" exported="true"/>
+    <component id="p1pn1" name="ResetPasswordTitle.xml" path="/"/>
+    <component id="p1pn2" name="FinishedButton.xml" path="/ResetPasswordPageComponents/"/>
+  </resources>
+  <publish name="ResetPasswordModule" path="G:\GitHub\UnityAppMVCFramework\Framework\Assets\SelfCreated\LoginModule\Resources\UI\ResetPasswordModule" genCode="true"/>
+</packageDescription>

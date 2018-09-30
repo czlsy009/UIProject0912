@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="sl21z51m" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="iqvs4" name="SelectLocationPage.xml" path="/" exported="true"/>
+    <component id="iqvs5" name="LocationComboBox_item.xml" path="/ProvinceComboBox/"/>
+    <component id="iqvs6" name="LocationComboBox_popup.xml" path="/ProvinceComboBox/"/>
+    <component id="iqvs7" name="LocationComboBox.xml" path="/ProvinceComboBox/" exported="true"/>
+    <component id="iqvsa" name="ConfirmLocationButton.xml" path="/"/>
+    <component id="iqvsb" name="CloseSelectLocationButton.xml" path="/"/>
+  </resources>
+  <publish name="SelectLocationModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\SelectLocationModule" genCode="true"/>
+</packageDescription>

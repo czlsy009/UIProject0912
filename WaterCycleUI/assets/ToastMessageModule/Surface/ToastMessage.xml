@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600" opaque="false">
+  <displayList>
+    <graph id="n0_iqvs" name="n0" xy="1012,1414" size="534,102" type="rect" lineSize="0" lineColor="#ff333333" fillColor="#ff333333" corner="50">
+      <relation target="" sidePair="center-center,bottom-bottom%"/>
+      <relation target="n1_iqvs" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_iqvs" name="title" xy="1059,1437" size="436,59" fontSize="40" color="#ffffff" align="center" vAlign="middle" letterSpacing="3" singleLine="true" text="这是一个Toast啊啊啊!">
+      <relation target="n0_iqvs" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <graph id="n2_p1pn" name="Bg" xy="0,0" size="500,500" type="rect"/>
+    <component id="n1_p1pn" name="HouseReviewButton" src="p1pn2" fileName="Surface/HouseLibModuleComponents/HouseReviewButtonSurface.xml" xy="0,0"/>
+    <component id="n3_p1pn" name="UseHouseButton" src="p1pn3" fileName="Surface/HouseLibModuleComponents/UseHouseButtonSurface.xml" xy="0,430"/>
+    <graph id="n4_p1pn" name="SeperateLine" xy="0,425" size="500,1" type="rect"/>
+  </displayList>
+</component>

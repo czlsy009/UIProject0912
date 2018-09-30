@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="x1uvbv1x" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="p1pn1" name="SignUpPage.xml" path="/" exported="true"/>
+    <component id="p1pn2" name="SignUpTitle.xml" path="/"/>
+    <component id="p1pn3" name="SendCodeButton.xml" path="/SignPageComponents/" exported="true"/>
+    <component id="p1pn4" name="AgreeCheckingButton.xml" path="/SignPageComponents/" exported="true"/>
+    <image id="p1pn5" name="check-box-outline-blank.png" path="/"/>
+    <image id="p1pn6" name="check-box.png" path="/"/>
+    <component id="p1pn7" name="ShowAgreementButton.xml" path="/SignPageComponents/" exported="true"/>
+    <component id="p1pn8" name="SignButton.xml" path="/SignPageComponents/" exported="true"/>
+    <component id="p1pn9" name="ToLoginButton.xml" path="/SignPageComponents/" exported="true"/>
+    <component id="p1pna" name="AgreementText.xml" path="/SignPageComponents/" exported="true"/>
+    <component id="p1pnb" name="CloseAgreementButton.xml" path="/SignPageComponents/" exported="true"/>
+  </resources>
+  <publish name="SignUpModule" path="G:\GitHub\UnityAppMVCFramework\Framework\Assets\SelfCreated\LoginModule\Resources\UI\SignUpModule" genCode="true"/>
+</packageDescription>
