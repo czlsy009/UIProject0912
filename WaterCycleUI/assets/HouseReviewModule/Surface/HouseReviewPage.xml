@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="2560,1600">
+<component size="2560,1600" designImage="ui://s2he82mhkn0u4" designImageAlpha="0" designImageLayer="1" adaptationTest="FitSize">
   <displayList>
-    <graph id="n0_p1pn" name="Bg" xy="0,0" size="2560,1600" type="rect" fillColor="#b3000000"/>
-    <graph id="n1_p1pn" name="n1" xy="128,135" size="2302,1328" type="rect"/>
-    <loader id="n10_p1pn" name="ReviewPicLoader" xy="225,189" size="2058,956" align="center" vAlign="middle" fill="scale"/>
-    <text id="n5_p1pn" name="CommunityNameText" xy="570,1193" size="603,70" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text=""/>
-    <text id="n6_p1pn" name="HouseTypeAndAreaText" xy="1315,1193" size="798,70" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text=""/>
-    <component id="n9_p1pn" name="UseButton" src="iqvs2" fileName="Surface/Components/HouseReviewUseButton.xml" xy="767,1332"/>
-    <component id="n11_p1pn" name="CloseButton" src="iqvs3" fileName="Surface/Components/CloseHouseReviewButton.xml" xy="1543,1332"/>
+    <image id="n12_kn0u" name="n12" src="kn0u5" fileName="Surface/Pics/pop1.png" xy="0,0"/>
+    <image id="n13_kn0u" name="n13" src="kn0ub" fileName="Surface/Pics/border_ChaKan.png" xy="911,204"/>
+    <loader id="n10_p1pn" name="ReviewPicLoader" xy="913,206" size="1252,1188" align="center" vAlign="middle" fill="scale"/>
+    <text id="n5_p1pn" name="CommunityNameText" xy="438,290" size="10,40" restrictSize="0,232,0,0" fontSize="26" color="#808080" align="center" vAlign="middle" singleLine="true" text=""/>
+    <text id="n6_p1pn" name="HouseTypeAndAreaText" xy="438,330" size="10,40" restrictSize="0,232,0,0" fontSize="26" color="#808080" align="center" vAlign="middle" singleLine="true" text=""/>
+    <component id="n9_p1pn" name="UseButton" src="iqvs2" fileName="Surface/Components/HouseReviewUseButton.xml" xy="395,1136"/>
+    <component id="n11_p1pn" name="CloseButton" src="iqvs3" fileName="Surface/Components/CloseHouseReviewButton.xml" xy="395,1286"/>
+    <text id="n14_kn0u" name="n14" xy="408,222" size="185,45" restrictSize="0,262,0,0" fontSize="30" color="#808080" vAlign="middle" singleLine="true" text="房源户型信息"/>
+    <component id="n15_f6ot" name="CloseButton2" src="f6otg" fileName="Surface/Components/CloseButton.xml" xy="2282,104"/>
   </displayList>
 </component>

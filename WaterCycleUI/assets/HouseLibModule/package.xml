@@ -8,6 +8,21 @@
     <component id="p1pn4" name="LocationButton.xml" path="/Surface/HouseLibModuleComponents/"/>
     <component id="p1pn6" name="SearchHouseButton.xml" path="/Surface/HouseLibModuleComponents/"/>
     <component id="p1pn7" name="HouseTypeFilterButton.xml" path="/Surface/HouseLibModuleComponents/"/>
+    <image id="kn0u8" name="27_spec.png" path="/Surface/Pics/"/>
+    <component id="kn0u9" name="HouseTypeFilterButton.xml" path="/Surface/MyHouseModuleComponents/"/>
+    <component id="kn0ua" name="HouseAreaFilterButton.xml" path="/Surface/MyHouseModuleComponents/"/>
+    <image id="kn0ub" name="button_search.png" path="/Surface/Pics/"/>
+    <component id="kn0uc" name="HouseSearchKeywordInputField.xml" path="/Surface/HouseLibModuleComponents/"/>
+    <image id="kn0ud" name="textfield_search.png" path="/Surface/Pics/"/>
+    <image id="kn0ue" name="icon_location.png" path="/Surface/Pics/"/>
+    <image id="kn0uf" name="icon_list.png" path="/Surface/Pics/"/>
+    <image id="kn0ug" name="card1_568pxborder2_3.png" path="/Surface/Pics/"/>
+    <image id="kn0uh" name="card_shadow1.png" path="/Surface/Pics/"/>
+    <image id="kn0ui" name="card1_568pxborder0.png" path="/Surface/Pics/"/>
+    <image id="kn0uj" name="placeholder528px.png" path="/Surface/Pics/"/>
+    <component id="f6otk" name="Component1.xml" path="/Surface/"/>
+    <component id="f6otl" name="SearchResultText.xml" path="/Surface/"/>
+    <image id="f6otm" name="tip.png" path="/Surface/Pics/"/>
   </resources>
-  <publish name="HouseLibModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\HouseLibModule" genCode="true"/>
+  <publish name="HouseLibModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\Resources\UI\HouseLibModule" genCode="true"/>
 </packageDescription>

@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="500,500" extention="Button">
+<component size="568,512" extention="Button" designImage="ui://xogzhyigs58h5" designImageOffsetX="-66" designImageOffsetY="-411" designImageAlpha="0" designImageLayer="1">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <graph id="n0_p1pn" name="n0" xy="0,0" size="500,500" touchable="false" type="rect" lineSize="0" fillColor="#fff0f0f0">
+    <graph id="n0_p1pn" name="n0" xy="0,0" size="568,512" touchable="false" type="rect" lineSize="0" fillColor="#00f0f0f0">
       <gearDisplay controller="button" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n1_p1pn" name="n1" xy="0,0" size="500,500" touchable="false" type="rect" lineSize="0" fillColor="#fffafafa">
+    <graph id="n1_p1pn" name="n1" xy="0,0" size="568,512" touchable="false" type="rect" lineSize="0" fillColor="#00f0f0f0">
       <gearDisplay controller="button" pages="2"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n2_p1pn" name="n2" xy="0,0" size="500,500" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc">
-      <gearDisplay controller="button" pages="1,3"/>
-      <relation target="" sidePair="width-width,height-height"/>
-    </graph>
-    <graph id="n5_p1pn" name="SeperateLine" xy="0,448" size="500,1" type="rect"/>
-    <text id="n3_p1pn" name="title" xy="0,350" size="500,150" fontSize="12" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n3_p1pn" name="title" xy="0,350" size="568,162" fontSize="12" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
-    <loader id="n4_p1pn" name="icon" xy="0,0" size="500,350" align="center" vAlign="middle" fill="scale">
+    <image id="n15_kn0u" name="n15" src="kn0ub" fileName="Surface/Pic/placeholder528px.png" xy="0,0"/>
+    <loader id="n4_p1pn" name="icon" xy="0,0" size="568,428" align="center" vAlign="middle" fill="scale">
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
-    <text id="n6_p1pn" name="n6" xy="12,455" size="125,45" fontSize="30" vAlign="middle" singleLine="true" text="户型图："/>
-    <text id="n7_p1pn" name="HouseCountText" xy="137,454" size="67,45" fontSize="30" vAlign="middle" singleLine="true" autoClearText="true" text="10套"/>
-    <text id="n8_p1pn" name="n8" xy="262,453" size="155,45" fontSize="30" vAlign="middle" singleLine="true" text="晓家方案："/>
-    <text id="n9_p1pn" name="HomeCountText" xy="419,453" size="67,45" fontSize="30" vAlign="middle" singleLine="true" autoClearText="true" text="10套"/>
-    <text id="n10_p1pn" name="LocationText" xy="53,350" size="73,45" fontSize="30" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="北京"/>
-    <text id="n11_p1pn" name="HouseName" xy="135,350" size="353,45" fontSize="30" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="万科未来城"/>
-    <text id="n12_p1pn" name="HouseTypeAndAreaSize" xy="12,399" size="477,45" fontSize="30" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="2室0厅1卫1厨|建筑面积 90㎡"/>
+    <image id="n14_s58h" name="n14" src="s58h9" fileName="Surface/Pic/card1_568pxborder0.png" xy="0,0"/>
+    <image id="n13_s58h" name="n13" src="s58h8" fileName="Surface/Pic/card_shadow1.png" xy="0,212"/>
+    <image id="n2_p1pn" name="n2" src="s58ha" fileName="Surface/Pic/card1_568pxborder2_3.png" xy="0,0" size="568,512">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n6_p1pn" name="n6" xy="21,447" size="137,49" fontSize="33" color="#949494" vAlign="middle" singleLine="true" text="户型图："/>
+    <text id="n7_p1pn" name="HouseCountText" xy="154,447" size="56,49" fontSize="33" color="#949494" vAlign="middle" singleLine="true" autoClearText="true" text="3种"/>
+    <text id="n8_p1pn" name="n8" xy="373,447" size="104,49" fontSize="33" color="#949494" vAlign="middle" singleLine="true" text="晓家："/>
+    <text id="n9_p1pn" name="HomeCountText" xy="473,448" size="74,49" fontSize="33" color="#949494" vAlign="middle" singleLine="true" autoClearText="true" text="10套"/>
+    <text id="n10_p1pn" name="LocationText" xy="23,310" size="73,45" fontSize="33" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="北京"/>
+    <text id="n11_p1pn" name="HouseName" xy="97,310" size="353,45" fontSize="33" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="万科未来城"/>
+    <text id="n12_p1pn" name="HouseTypeAndAreaSize" xy="24,366" size="477,45" fontSize="33" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="2室0厅1卫1厨|建筑面积 90㎡"/>
   </displayList>
   <Button/>
 </component>

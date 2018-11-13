@@ -2,8 +2,15 @@
 <packageDescription id="xxde3xxd" jpegQuality="80" compressPNG="true">
   <resources>
     <component id="p1pn0" name="ResetPasswordPage.xml" path="/" exported="true"/>
-    <component id="p1pn1" name="ResetPasswordTitle.xml" path="/"/>
-    <component id="p1pn2" name="FinishedButton.xml" path="/ResetPasswordPageComponents/"/>
+    <image id="f6ot3" name="logo1.png" path="/Pics/"/>
+    <component id="f6ot4" name="FinishButton.xml" path="/ResetPasswordPageComponents/"/>
+    <image id="f6ot5" name="button2.png" path="/Pics/"/>
+    <image id="f6ot6" name="07_spec.png" path="/Pics/"/>
+    <image id="f6ot7" name="bg2.png" path="/Pics/"/>
+    <component id="f6ot9" name="PasswordInputField.xml" path="/SignPageComponents/"/>
+    <image id="f6ota" name="textfield1.png" path="/Pics/"/>
+    <component id="f6otb" name="BackButton.xml" path="/ResetPasswordPageComponents/"/>
+    <image id="f6otc" name="icon_back2.png" path="/Pics/"/>
   </resources>
-  <publish name="ResetPasswordModule" path="G:\GitHub\UnityAppMVCFramework\Framework\Assets\SelfCreated\LoginModule\Resources\UI\ResetPasswordModule" genCode="true"/>
+  <publish name="ResetPasswordModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\Resources\UI\ResetPasswordModule" genCode="true" maxAtlasSize="4096"/>
 </packageDescription>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="2560,1600">
+<component size="2560,1600" designImage="ui://syioo4aykn0u5" designImageAlpha="0" designImageLayer="1">
   <displayList>
-    <graph id="n0_iqvs" name="n0" xy="0,0" size="2560,1600" type="rect" fillColor="#b3000000"/>
-    <graph id="n1_iqvs" name="n1" xy="314,168" size="1932,1264" type="rect"/>
-    <text id="n2_iqvs" name="n2" xy="1073,224" size="406,112" fontSize="60" align="center" vAlign="middle" autoSize="none" singleLine="true" text="房源户型信息"/>
-    <text id="n3_iqvs" name="n3" xy="737,427" size="196,74" fontSize="48" align="center" vAlign="middle" autoSize="none" text="*城市："/>
-    <component id="n4_iqvs" name="LocationButton" src="iqvs1" fileName="Surface/Components/ModifyPersonalHouseInfoLocationButton.xml" xy="1014,414"/>
-    <text id="n5_iqvs" name="n5" xy="691,589" size="241,70" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text="*小区名称："/>
-    <text id="n6_iqvs" name="CommunityNameInputField" xy="1014,589" size="915,70" input="true" prompt="请输入小区名称" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
-    <text id="n7_iqvs" name="n7" xy="722,734" size="211,70" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text="门牌号："/>
-    <text id="n8_iqvs" name="HouseNumberInputField" xy="1014,734" size="915,70" input="true" prompt="请输入门牌号" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
-    <text id="n9_iqvs" name="n9" xy="716,886" size="216,70" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text="建筑面积："/>
-    <text id="n10_iqvs" name="FloorAreaInputField" xy="1014,886" size="915,70" input="true" prompt="请输入建筑面积" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
-    <component id="n11_iqvs" name="ConfirmButton" src="iqvs2" fileName="Surface/Components/ConfirmHouseInfoModifyButton.xml" xy="1030,1038"/>
-    <component id="n12_iqvs" name="CloseButton" src="iqvs3" fileName="Surface/Components/CloseModifyButton.xml" xy="2102,212"/>
+    <image id="n13_kn0u" name="n13" src="kn0u4" fileName="Surface/Pics/pop2.png" xy="0,0"/>
+    <text id="n2_iqvs" name="n2" xy="1077,333" size="406,112" fontSize="60" color="#b2b2b2" align="center" vAlign="middle" autoSize="none" singleLine="true" text="房源户型信息"/>
+    <text id="n3_iqvs" name="n3" xy="829,532" size="143,59" fontSize="40" color="#808080" align="right" vAlign="middle" text="*城市："/>
+    <component id="n4_iqvs" name="LocationButton" src="iqvs1" fileName="Surface/Components/ModifyPersonalHouseInfoLocationButton.xml" xy="996,513"/>
+    <component id="n6_iqvs" name="CommunityNameInputField" src="kn0ub" fileName="Surface/ModifyCommunityNameInputField.xml" xy="1012,637"/>
+    <component id="n8_iqvs" name="HouseNumberInputField" src="kn0ua" fileName="Surface/ModifyHouseNumberInputField.xml" xy="1014,779"/>
+    <component id="n11_iqvs" name="ConfirmButton" src="iqvs2" fileName="Surface/Components/ConfirmHouseInfoModifyButton.xml" xy="858,1115"/>
+    <component id="n12_iqvs" name="CloseButton" src="iqvs3" fileName="Surface/Components/CloseModifyButton.xml" xy="2282,104"/>
+    <text id="n15_kn0u" name="n15" xy="751,665" size="223,59" fontSize="40" color="#808080" align="right" vAlign="middle" text="*小区名称："/>
+    <text id="n16_kn0u" name="n16" xy="808,799" size="165,59" fontSize="40" color="#808080" align="right" vAlign="middle" text="门牌号："/>
+    <text id="n17_kn0u" name="n17" xy="768,934" size="205,59" fontSize="40" color="#808080" align="right" vAlign="middle" text="建筑面积："/>
+    <component id="n20_kn0u" name="FloorAreaInputField" src="kn0u9" fileName="Surface/ModifyFloorAreaInputField.xml" xy="1014,914"/>
+    <text id="n21_kn0u" name="n21" xy="1731,941" size="203,49" fontSize="33" color="#e5e5e5" text="购房产权面积"/>
   </displayList>
 </component>

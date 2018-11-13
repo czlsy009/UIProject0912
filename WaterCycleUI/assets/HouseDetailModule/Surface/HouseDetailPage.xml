@@ -1,28 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="2560,1600">
+<component size="2560,1600" designImage="ui://xc3zat8lkn0um" designImageAlpha="27" designImageLayer="1">
   <controller name="c1" pages="0,Normal,1,LayoutReview,2,Description" selected="0"/>
   <displayList>
-    <graph id="n23_p1pn" name="n23" xy="0,0" size="2560,1600" type="rect" fillColor="#ff009966"/>
-    <graph id="n0_p1pn" name="n0" xy="0,0" size="2560,100" type="rect"/>
-    <text id="n5_p1pn" name="n5" xy="0,0" size="2560,100" fontSize="60" align="center" vAlign="middle" autoSize="none" singleLine="true" text="房源详情"/>
-    <component id="n1_p1pn" name="BackButton" src="p1pn1" fileName="Surface/Components/HouseDetailBackButton.xml" xy="0,0"/>
-    <component id="n2_p1pn" name="DeleteHouseButton" src="p1pn3" fileName="Surface/Components/DeleteHouseButton.xml" xy="2060,0"/>
-    <text id="n7_p1pn" name="n1" xy="64,449" size="148,62" fontSize="42" align="center" vAlign="middle" autoSize="none" singleLine="true" text="户型图"/>
-    <text id="n3_p1pn" name="CommunityNameText" xy="87,237" size="399,70" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="wtf"/>
-    <component id="n4_p1pn" name="EditHouseInfoButton" src="p1pn4" fileName="Surface/Components/EditHouseInfoButton.xml" xy="550,218" size="100,100"/>
-    <text id="n6_p1pn" name="HouseTypeAndAreaSize" xy="56,341" size="632,70" fontSize="42" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="2室0厅1卫1厨  |  建筑面积 90m²"/>
-    <text id="n8_p1pn" name="LayoutNumberText" xy="251,451" size="128,62" fontSize="42" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="3套"/>
-    <list id="n9_p1pn" name="LayoutList" xy="50,550" size="500,1000" overflow="scroll" lineGap="57" defaultItem="ui://xc3zat8lp1pn8" align="center" autoClearItems="true">
+    <graph id="n23_p1pn" name="n23" xy="0,0" size="2560,1600" type="rect" lineSize="0"/>
+    <image id="n24_kn0u" name="n24" src="kn0us" fileName="Surface/Pics/nav_632px.png" xy="0,0"/>
+    <image id="n0_p1pn" name="n0" src="kn0uj" fileName="Surface/Pics/nav_120px.png" xy="0,0"/>
+    <text id="n5_p1pn" name="n5" xy="0,0" size="2560,122" fontSize="40" color="#ffffff" align="center" vAlign="middle" letterSpacing="10" autoSize="none" singleLine="true" text="房源详情"/>
+    <component id="n1_p1pn" name="BackButton" src="p1pn1" fileName="Surface/Components/HouseDetailBackButton.xml" xy="52,38"/>
+    <component id="n2_p1pn" name="DeleteHouseButton" src="p1pn2" fileName="Surface/Components/DeleteHouseButton.xml" xy="155,337">
+      <relation target="n6_p1pn" sidePair="center-center"/>
+    </component>
+    <text id="n7_p1pn" name="n1" xy="234,434" size="127,49" fontSize="33" color="#999999" align="center" vAlign="middle" singleLine="true" text="户型图  |">
+      <relation target="n9_p1pn" sidePair="center-center"/>
+    </text>
+    <text id="n3_p1pn" name="CommunityNameText" xy="174,186" size="285,59" fontSize="40" color="#978dfe" align="center" vAlign="middle" underline="true" singleLine="true" autoClearText="true" text="北京万科未来城">
+      <relation target="n9_p1pn" sidePair="center-center"/>
+    </text>
+    <component id="n4_p1pn" name="EditHouseInfoButton" src="p1pn4" fileName="Surface/Components/EditHouseInfoButton.xml" xy="463,183">
+      <relation target="n3_p1pn" sidePair="left-right"/>
+    </component>
+    <text id="n6_p1pn" name="HouseTypeAndAreaSize" xy="129,265" size="369,40" fontSize="26" color="#999999" align="center" vAlign="middle" singleLine="true" autoClearText="true" text="2室0厅1卫1厨  |  建筑面积 90m²">
+      <relation target="n3_p1pn" sidePair="center-center"/>
+    </text>
+    <text id="n8_p1pn" name="LayoutNumberText" xy="365,434" size="56,49" fontSize="33" color="#999999" align="center" vAlign="middle" singleLine="true" autoClearText="true" text="3套">
+      <relation target="n7_p1pn" sidePair="left-right"/>
+    </text>
+    <list id="n9_p1pn" name="LayoutList" xy="0,493" size="632,1107" overflow="scroll" lineGap="57" defaultItem="ui://xc3zat8lp1pn8" align="center" autoClearItems="true">
       <item/>
       <item/>
       <item/>
       <item/>
       <item/>
     </list>
-    <component id="n10_p1pn" name="CreatSchemeButton" src="p1pn2" fileName="Surface/Components/CreatSchemeButton.xml" xy="2212,131" touchable="false" grayed="true"/>
-    <text id="n11_p1pn" name="n11" xy="990,138" size="218,62" fontSize="42" align="center" vAlign="middle" autoSize="none" text="我的晓家"/>
-    <text id="n12_p1pn" name="SchemeNumberText" xy="1258,138" size="199,62" fontSize="42" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="3套"/>
-    <list id="n13_p1pn" name="SchemeList" xy="912,350" size="1600,1200" layout="flow_hz" overflow="scroll" lineGap="50" colGap="50" lineItemCount="3" defaultItem="ui://xc3zat8lp1pnc" autoClearItems="true">
+    <component id="n10_p1pn" name="CreatSchemeButton" src="p1pn3" fileName="Surface/Components/CreatSchemeButton.xml" xy="2260,0"/>
+    <list id="n13_p1pn" name="SchemeList" xy="632,122" size="1928,1478" layout="flow_hz" overflow="scroll" margin="49,0,56,56" lineGap="50" colGap="50" lineItemCount="3" defaultItem="ui://xc3zat8lp1pnc" autoClearItems="true">
       <item/>
       <item/>
       <item/>
@@ -34,5 +45,11 @@
       <item/>
       <item/>
     </list>
+    <graph id="n25_kn0u" name="n25" xy="46,415" size="540,2" type="rect" lineSize="0" fillColor="#edeeeeee">
+      <relation target="n9_p1pn" sidePair="center-center"/>
+    </graph>
+    <text id="n26_f6ot" name="TipText" xy="1241,836" size="709,49" fontSize="33" color="#808080" align="center" vAlign="middle" singleLine="true" text="您当前还没有晓家方案，可点击【创建晓家】添加">
+      <relation target="n13_p1pn" sidePair="center-center,middle-middle"/>
+    </text>
   </displayList>
 </component>

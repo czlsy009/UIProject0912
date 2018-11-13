@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1480" overflow="scroll">
+  <displayList>
+    <text id="n27_kn0u" name="n27" xy="758,1215" pivot="1,1" size="205,59" fontSize="40" color="#808080" align="right" vAlign="middle" text="原始户型："/>
+    <text id="n4_p1pn" name="n4" xy="225,0" size="924,100" fontSize="26" color="#949494" vAlign="middle" autoSize="none" text="*晓家平台向您承诺，您提交的信息仅限用于您房间设计，不会对外展示或其他用途。"/>
+    <text id="n6_p1pn" name="n6" xy="746,154" pivot="1,1" size="223,59" fontSize="40" color="#808080" align="right" vAlign="middle" text="*居住城市："/>
+    <component id="n7_p1pn" name="LocationButton" src="p1pn2" fileName="Surface/HouseInfoConfirmLocationButton.xml" xy="936,135" size="198,100" touchable="false"/>
+    <image id="n29_kn0u" name="n29" src="kn0ue" fileName="Surface/Pics/picsfield.png" xy="975,671"/>
+    <loader id="n12_p1pn" name="LayoutPicLoader" xy="975,671" size="686,488" align="center" vAlign="middle" fill="scale"/>
+    <component id="n15_p1pn" name="CommunityNameInputField" src="kn0u8" fileName="Surface/CommunityNameInputField.xml" xy="974,269" size="686,92"/>
+    <component id="n16_p1pn" name="HouseNumberInputField" src="kn0ua" fileName="Surface/HouseNumberInputField.xml" xy="974,404"/>
+    <component id="n17_p1pn" name="LayoutNameInputField" src="kn0ub" fileName="Surface/LayoutNameInputField.xml" xy="974,537"/>
+    <text id="n18_p1pn" name="OriginLayoutText" xy="999,1210" size="1289,70" fontSize="40" color="#b2b2b2" vAlign="middle" autoSize="none" singleLine="true" text="2室"/>
+    <component id="n19_p1pn" name="FoorAreaInputField" src="kn0uc" fileName="Surface/FoorAreaInputField.xml" xy="974,1313"/>
+    <component id="n20_p1pn" name="ReChooseButton" src="p1pn3" fileName="Surface/ReChooseButton.xml" xy="1697,1051"/>
+    <component id="n21_p1pn" name="ConfirmCreatButton" src="p1pn4" fileName="Surface/ConfirmCreatButton.xml" xy="1074,1570" touchable="false" grayed="true"/>
+    <text id="n23_kn0u" name="n23" xy="744,289" pivot="1,1" size="223,59" fontSize="40" color="#808080" align="right" vAlign="middle" text="*小区名称："/>
+    <text id="n24_kn0u" name="n24" xy="800,423" pivot="1,1" size="165,59" fontSize="40" color="#808080" align="right" vAlign="middle" text="门牌号："/>
+    <text id="n25_kn0u" name="n25" xy="709,558" pivot="1,1" size="263,59" fontSize="40" color="#808080" align="right" vAlign="middle" text="*户型图名称："/>
+    <text id="n26_kn0u" name="n26" xy="803,687" pivot="1,1" size="165,59" fontSize="40" color="#808080" align="right" vAlign="middle" text="户型图："/>
+    <text id="n28_kn0u" name="n28" xy="756,1334" pivot="1,1" size="205,59" fontSize="40" color="#808080" align="right" vAlign="middle" text="建筑面积："/>
+    <text id="n30_kn0u" name="n30" xy="1692,1336" size="203,49" fontSize="33" color="#e5e5e5" text="购房产权面积"/>
+    <text id="n31_kn0u" name="n31" xy="1692,560" size="401,49" fontSize="33" color="#e5e5e5" text="一套房子可以有多套户型图"/>
+    <text id="n33_kn0u" name="n33" xy="754,1215" pivot="1,1" size="207,59" fontSize="40" color="#808080" align="right" vAlign="middle" text="原始户型："/>
+  </displayList>
+</component>

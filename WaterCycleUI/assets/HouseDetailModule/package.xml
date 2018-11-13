@@ -3,8 +3,8 @@
   <resources>
     <component id="p1pn0" name="HouseDetailPage.xml" path="/Surface/" exported="true"/>
     <component id="p1pn1" name="HouseDetailBackButton.xml" path="/Surface/Components/"/>
-    <component id="p1pn2" name="CreatSchemeButton.xml" path="/Surface/Components/"/>
-    <component id="p1pn3" name="DeleteHouseButton.xml" path="/Surface/Components/"/>
+    <component id="p1pn2" name="DeleteHouseButton.xml" path="/Surface/Components/"/>
+    <component id="p1pn3" name="CreatSchemeButton.xml" path="/Surface/Components/"/>
     <component id="p1pn4" name="EditHouseInfoButton.xml" path="/Surface/Components/"/>
     <component id="p1pn8" name="LayoutListItem.xml" path="/Surface/" exported="true"/>
     <component id="p1pna" name="LayoutDetailButton.xml" path="/Surface/Components/"/>
@@ -15,6 +15,19 @@
     <component id="iqvsg" name="LayoutItemIcon.xml" path="/Surface/"/>
     <image id="iqvsh" name="check-box.png" path="/Surface/"/>
     <component id="iqvsi" name="SchemeItemIcon.xml" path="/Surface/"/>
+    <image id="kn0uj" name="nav_120px.png" path="/Surface/Pics/"/>
+    <image id="kn0uk" name="icon_back2.png" path="/Surface/Pics/"/>
+    <image id="kn0ul" name="buttion_TianJiaXiaoJiao.png" path="/Surface/Pics/"/>
+    <image id="kn0um" name="16_spec.png" path="/Surface/Pics/"/>
+    <image id="kn0un" name="icon_BianJi0.png" path="/Surface/Pics/"/>
+    <image id="kn0uo" name="icon_BianJi2.png" path="/Surface/Pics/"/>
+    <image id="kn0up" name="card_shadow2.png" path="/Surface/Pics/"/>
+    <image id="kn0uq" name="card2_543pxborder0.png" path="/Surface/Pics/"/>
+    <image id="kn0ur" name="card_choosed.png" path="/Surface/Pics/"/>
+    <image id="kn0us" name="nav_632px.png" path="/Surface/Pics/"/>
+    <image id="kn0ut" name="card3_568pxborder0.png" path="/Surface/Pics/"/>
+    <image id="kn0uu" name="card3_568pxborder2_3.png" path="/Surface/Pics/"/>
+    <image id="kn0uv" name="placeholder528px.png" path="/Surface/"/>
   </resources>
-  <publish name="HouseDetailModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\HouseDetailModule" genCode="true"/>
+  <publish name="HouseDetailModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\Resources\UI\HouseDetailModule" genCode="true" maxAtlasSize="4096"/>
 </packageDescription>

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="500,500">
+<component size="568,506" extention="Button" designImage="ui://xc3zat8lkn0um" designImageOffsetX="-687" designImageOffsetY="-171" designImageAlpha="25" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
   <displayList>
-    <graph id="n2_p1pn" name="Bg" xy="0,0" size="500,500" type="rect"/>
-    <component id="n10_iqvs" name="SchemeItemIcon" src="iqvsi" fileName="Surface/SchemeItemIcon.xml" xy="0,0"/>
-    <graph id="n4_p1pn" name="SeperateLine" xy="0,425" size="500,1" type="rect"/>
-    <text id="n6_p1pn" name="SchemeNameText" xy="0,312" size="500,45" fontSize="30" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="万科未来城"/>
-    <text id="n8_p1pn" name="DescriptionText" xy="11,362" size="477,45" fontSize="30" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="2室0厅1卫1厨|建筑面积 90㎡"/>
-    <component id="n9_p1pn" name="MultiSightReviewButton" src="p1pnb" fileName="Surface/Components/HouseDetailMultiSightReviewButton.xml" xy="100,430"/>
+    <image id="n2_p1pn" name="Bg" src="kn0ut" fileName="Surface/Pics/card3_568pxborder0.png" xy="0,0"/>
+    <image id="n13_kn0u" name="n13" src="kn0uv" fileName="Surface/placeholder528px.png" xy="0,0"/>
+    <loader id="n11_kn0u" name="icon" xy="0,0" size="568,428" align="center" vAlign="middle" fill="scale"/>
+    <image id="n12_kn0u" name="n12" src="kn0uu" fileName="Surface/Pics/card3_568pxborder2_3.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <text id="n6_p1pn" name="SchemeNameText" xy="34,451" size="500,45" fontSize="33" color="#949494" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="王女士"/>
   </displayList>
+  <Button/>
 </component>

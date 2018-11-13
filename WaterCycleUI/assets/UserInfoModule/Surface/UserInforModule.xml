@@ -1,43 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="2460,1280">
+<component size="2560,1478" designImage="ui://xl56qh8cf6ot6" designImageOffsetY="-122" designImageLayer="1">
   <controller name="c1" pages="0,BaseInfo,1,ModifyPassword" selected="0"/>
   <displayList>
-    <graph id="n26_p1pn" name="n26" xy="0,0" size="2460,1280" type="rect"/>
-    <loader id="n2_p1pn" name="Bg" xy="0,0" size="2460,1280"/>
-    <loader id="n0_p1pn" name="NavBarBg" xy="0,0" size="2460,156"/>
-    <list id="n3_p1pn" name="n3" xy="175,8" size="1034,140" layout="row" overflow="scroll" colGap="100" defaultItem="ui://xl56qh8cp1pn1" selectionController="c1">
+    <graph id="n26_p1pn" name="n26" xy="0,0" size="2560,1478" type="rect" lineSize="0"/>
+    <list id="n3_p1pn" name="n3" xy="82,18" size="409,80" layout="row" overflow="scroll" colGap="54" defaultItem="ui://xl56qh8cp1pn1" autoItemSize="false" selectionController="c1">
       <item title="基本信息"/>
       <item title="修改密码"/>
     </list>
-    <component id="n4_p1pn" name="LogoutButton" src="p1pn2" fileName="Surface/UserInfoModuleComponents/LogoutButton.xml" xy="1963,8"/>
-    <text id="n5_p1pn" name="n5" xy="643,236" size="200,70" group="n17_p1pn" fontSize="48" align="right" vAlign="middle" autoSize="none" singleLine="true" text="头像："/>
-    <text id="n6_p1pn" name="n6" xy="643,348" size="200,70" group="n17_p1pn" fontSize="48" align="right" vAlign="middle" autoSize="none" singleLine="true" text="*昵称："/>
-    <text id="n7_p1pn" name="n7" xy="643,475" size="200,70" group="n17_p1pn" fontSize="48" align="right" vAlign="middle" autoSize="none" singleLine="true" text="手机号："/>
-    <text id="n8_p1pn" name="n8" xy="643,620" size="200,70" group="n17_p1pn" fontSize="48" align="right" vAlign="middle" autoSize="none" singleLine="true" text="性别："/>
-    <text id="n9_p1pn" name="n9" xy="643,757" size="200,70" group="n17_p1pn" fontSize="48" align="right" vAlign="middle" autoSize="none" singleLine="true" text="邮箱："/>
-    <text id="n10_p1pn" name="n10" xy="643,904" size="200,70" group="n17_p1pn" fontSize="48" align="right" vAlign="middle" autoSize="none" singleLine="true" text="所在地："/>
-    <text id="n11_p1pn" name="UserNickInputField" xy="948,348" size="737,70" group="n17_p1pn" input="true" prompt="请输入6-16位昵称" maxLength="16" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
-    <loader id="n12_p1pn" name="UserHead" xy="948,225" size="100,100" group="n17_p1pn" align="center" vAlign="middle" fill="scale"/>
-    <text id="n13_p1pn" name="PhoneNumberText" xy="948,475" size="737,70" group="n17_p1pn" input="true" fontSize="48" vAlign="middle" autoSize="none" autoClearText="true" text="17778189826"/>
-    <text id="n14_p1pn" name="EmailInputField" xy="948,757" size="737,70" group="n17_p1pn" input="true" prompt="请输入邮箱地址" maxLength="16" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
-    <component id="n15_p1pn" name="SavaButton" src="p1pn3" fileName="Surface/UserInfoModuleComponents/SavaButton.xml" xy="980,1069" group="n17_p1pn" touchable="false" grayed="true"/>
-    <list id="n16_p1pn" name="SexSelectButtonList" xy="947,620" size="737,70" group="n17_p1pn" layout="row" overflow="scroll" colGap="100" defaultItem="ui://xl56qh8cp1pn4" vAlign="middle">
-      <item title="保密"/>
+    <text id="n5_p1pn" name="n5" xy="817,207" size="143,59" group="n17_p1pn" fontSize="40" color="#808080" align="right" vAlign="middle" singleLine="true" text="*头像："/>
+    <component id="n11_p1pn" name="UserNickInputField" src="f6ota" fileName="Surface/UserInfoModuleComponents/UserNickInputField.xml" xy="974,459" group="n17_p1pn"/>
+    <component id="n12_p1pn" name="UseHead" src="f6ot8" fileName="Surface/UserInfoModuleComponents/UserHeadComponent.xml" xy="1003,191" group="n17_p1pn"/>
+    <component id="n13_p1pn" name="PhoneNumberText" src="f6otc" fileName="Surface/UserInfoModuleComponents/PhoneNumberText.xml" xy="973,592" group="n17_p1pn"/>
+    <component id="n14_p1pn" name="EmailInputField" src="f6otg" fileName="Surface/UserInfoModuleComponents/EmailInputField.xml" xy="974,855" group="n17_p1pn"/>
+    <component id="n15_p1pn" name="SavaButton" src="p1pn3" fileName="Surface/UserInfoModuleComponents/SavaButton.xml" xy="1076,1156" group="n17_p1pn" touchable="false" grayed="true"/>
+    <list id="n16_p1pn" name="SexSelectButtonList" xy="1016,734" size="737,70" group="n17_p1pn" layout="row" overflow="scroll" colGap="130" defaultItem="ui://xl56qh8cp1pn4" vAlign="middle">
       <item title="男"/>
       <item title="女"/>
+      <item title="保密"/>
     </list>
-    <group id="n17_p1pn" name="BaseInfoGroup" xy="643,225" size="1042,984" advanced="true">
+    <text id="n27_f6ot" name="n27" xy="817,475" size="143,59" group="n17_p1pn" fontSize="40" color="#808080" align="right" vAlign="middle" singleLine="true" text="*昵称："/>
+    <text id="n28_f6ot" name="n28" xy="795,608" size="165,59" group="n17_p1pn" fontSize="40" color="#808080" align="right" vAlign="middle" singleLine="true" text="手机号："/>
+    <text id="n29_f6ot" name="n29" xy="835,741" size="125,59" group="n17_p1pn" fontSize="40" color="#808080" align="right" vAlign="middle" singleLine="true" text="性别："/>
+    <text id="n30_f6ot" name="n30" xy="835,871" size="125,59" group="n17_p1pn" fontSize="40" color="#808080" align="right" vAlign="middle" singleLine="true" text="邮箱："/>
+    <text id="n31_f6ot" name="n31" xy="795,1004" size="165,59" group="n17_p1pn" fontSize="40" color="#808080" align="right" vAlign="middle" singleLine="true" text="所在地："/>
+    <component id="n34_f6ot" name="ProvinceCombox" src="f6otm" fileName="Surface/UserInfoModuleComponents/LocationCombox.xml" xy="974,984" group="n17_p1pn">
+      <ComboBox title="[color=#e5e5e5]省/市[/color]" visibleItemCount="4" direction="down" autoClearItems="true">
+        <item title="1" icon="ui://xl56qh8cf6otk"/>
+        <item title="2" icon="ui://xl56qh8cf6otk"/>
+        <item title="3" icon="ui://xl56qh8cf6otk"/>
+        <item title="4" icon="ui://xl56qh8cf6otk"/>
+        <item title="5" icon="ui://xl56qh8cf6otk"/>
+        <item title="6" icon="ui://xl56qh8cf6otk"/>
+        <item title="7" icon="ui://xl56qh8cf6otk"/>
+        <item title="8" icon="ui://xl56qh8cf6otk"/>
+        <item title="9" icon="ui://xl56qh8cf6otk"/>
+        <item title="10" icon="ui://xl56qh8cf6otk"/>
+        <item title="11" icon="ui://xl56qh8cf6otk"/>
+        <item title="12" icon="ui://xl56qh8cf6otk"/>
+      </ComboBox>
+    </component>
+    <component id="n35_f6ot" name="CityCombox" src="f6otm" fileName="Surface/UserInfoModuleComponents/LocationCombox.xml" xy="1333,984" group="n17_p1pn">
+      <ComboBox title="[color=#e5e5e5]市/区[/color]" visibleItemCount="4" direction="down" autoClearItems="true">
+        <item title="1" icon="ui://xl56qh8cf6otk"/>
+        <item title="2" icon="ui://xl56qh8cf6otk"/>
+        <item title="3" icon="ui://xl56qh8cf6otk"/>
+        <item title="4" icon="ui://xl56qh8cf6otk"/>
+        <item title="5" icon="ui://xl56qh8cf6otk"/>
+        <item title="6" icon="ui://xl56qh8cf6otk"/>
+        <item title="7" icon="ui://xl56qh8cf6otk"/>
+        <item title="8" icon="ui://xl56qh8cf6otk"/>
+        <item title="9" icon="ui://xl56qh8cf6otk"/>
+        <item title="10" icon="ui://xl56qh8cf6otk"/>
+        <item title="11" icon="ui://xl56qh8cf6otk"/>
+        <item title="12" icon="ui://xl56qh8cf6otk"/>
+      </ComboBox>
+    </component>
+    <group id="n17_p1pn" name="BaseInfoGroup" xy="795,191" size="958,1072" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
-    <text id="n18_p1pn" name="OriginPasswordInputField" xy="1020,289" size="619,70" group="n25_p1pn" input="true" prompt="请输入原始密码" password="true" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
-    <text id="n19_p1pn" name="n19" xy="697,289" size="245,70" group="n25_p1pn" fontSize="48" vAlign="middle" singleLine="true" text="原始密码："/>
-    <text id="n20_p1pn" name="n20" xy="746,454" size="197,70" group="n25_p1pn" fontSize="48" vAlign="middle" singleLine="true" text="新密码："/>
-    <text id="n21_p1pn" name="n21" xy="697,606" size="245,70" group="n25_p1pn" fontSize="48" vAlign="middle" singleLine="true" text="确认密码："/>
-    <text id="n22_p1pn" name="NewPasswordInput" xy="1020,454" size="619,70" group="n25_p1pn" input="true" prompt="请输入6-16位新密码" maxLength="16" password="true" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
-    <text id="n23_p1pn" name="ConfirmPasswordInputField" xy="1020,606" size="619,70" group="n25_p1pn" input="true" prompt="请再次输入新密码" maxLength="16" password="true" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text=""/>
-    <component id="n24_p1pn" name="ConfirmModifyButton" src="p1pn5" fileName="Surface/UserInfoModuleComponents/ConfirmModifyButton.xml" xy="989,836" group="n25_p1pn" touchable="false" grayed="true"/>
-    <group id="n25_p1pn" name="ModifyPasswordGroup" xy="697,289" size="942,697" advanced="true" collapsed="true">
+    <component id="n18_p1pn" name="OriginPasswordInputField" src="f6oto" fileName="Surface/UserInfoModuleComponents/OriginPasswordInputField.xml" xy="973,191" group="n25_p1pn"/>
+    <text id="n19_p1pn" name="n19" xy="756,207" size="207,59" group="n25_p1pn" fontSize="40" color="#808080" align="right" vAlign="middle" singleLine="true" text="原始密码："/>
+    <text id="n21_p1pn" name="n21" xy="756,473" size="207,59" group="n25_p1pn" fontSize="40" color="#808080" vAlign="middle" singleLine="true" text="确认密码："/>
+    <component id="n22_p1pn" name="NewPasswordInput" src="f6otp" fileName="Surface/UserInfoModuleComponents/NewPasswordInput.xml" xy="973,324" group="n25_p1pn"/>
+    <component id="n23_p1pn" name="ConfirmPasswordInputField" src="f6otq" fileName="Surface/UserInfoModuleComponents/ConfirmPasswordInputField.xml" xy="973,457" group="n25_p1pn"/>
+    <component id="n24_p1pn" name="ConfirmModifyButton" src="p1pn5" fileName="Surface/UserInfoModuleComponents/ConfirmModifyButton.xml" xy="1074,630" group="n25_p1pn" touchable="false" grayed="true"/>
+    <text id="n37_f6ot" name="n37" xy="756,340" size="207,59" group="n25_p1pn" fontSize="40" color="#808080" align="right" vAlign="middle" singleLine="true" text="原始密码："/>
+    <group id="n25_p1pn" name="ModifyPasswordGroup" xy="756,191" size="904,546" advanced="true">
       <gearDisplay controller="c1" pages="1"/>
     </group>
+    <component id="n4_p1pn" name="LogoutButton" src="p1pn2" fileName="Surface/UserInfoModuleComponents/LogoutButton.xml" xy="2292,18"/>
+    <graph id="n36_f6ot" name="n36" xy="68,107" size="2424,2" type="rect" lineSize="0" fillColor="#ffeeeeee"/>
   </displayList>
 </component>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="2560,1600">
+<component size="2560,1600" designImage="ui://x2ba5l6pkn0u5" designImageAlpha="21" designImageLayer="1">
   <displayList>
-    <graph id="n0_p1pn" name="Bg" xy="0,0" size="2560,1600" type="rect" fillColor="#b3000000"/>
-    <graph id="n1_p1pn" name="n1" xy="128,135" size="2302,1328" type="rect"/>
-    <text id="n4_p1pn" name="n2" xy="235,199" size="413,70" fontSize="48" vAlign="middle" autoSize="none" singleLine="true" text="房源户型信息"/>
-    <text id="n5_p1pn" name="CommunityNameText" xy="234,288" size="422,70" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text=""/>
-    <text id="n6_p1pn" name="HouseTypeAndAreaText" xy="235,397" size="617,59" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text=""/>
-    <component id="n7_p1pn" name="EditInfoButton" src="p1pn1" fileName="Surface/Components/LayoutReviewEditInfoButton.xml" xy="760,271"/>
-    <component id="n9_p1pn" name="DeleteButton" src="p1pn3" fileName="Surface/Components/LayoutReviewDeleteButton.xml" xy="359,1211"/>
-    <loader id="n10_p1pn" name="ReviewPicLoader" xy="967,189" size="1317,1220" align="center" vAlign="middle" fill="scale"/>
-    <component id="n11_p1pn" name="CloseButton" src="p1pn4" fileName="Surface/Components/CloseLayoutReviewButton.xml" xy="2307,158"/>
+    <image id="n15_kn0u" name="n15" src="kn0u7" fileName="Surface/Pics/pop1.png" xy="0,0"/>
+    <text id="n4_p1pn" name="n2" xy="408,222" size="185,45" restrictSize="0,262,0,0" fontSize="30" color="#978dfe" vAlign="middle" underline="true" singleLine="true" text="房源户型信息"/>
+    <text id="n5_p1pn" name="CommunityNameText" xy="438,290" size="10,40" restrictSize="0,232,0,0" fontSize="26" color="#808080" align="center" vAlign="middle" singleLine="true" text=""/>
+    <text id="n6_p1pn" name="HouseTypeAndAreaText" xy="438,340" size="10,40" restrictSize="0,232,0,0" fontSize="26" color="#808080" align="center" vAlign="middle" singleLine="true" text=""/>
+    <component id="n7_p1pn" name="EditInfoButton" src="p1pn1" fileName="Surface/Components/LayoutReviewEditInfoButton.xml" xy="599,212" touchable="false">
+      <relation target="n4_p1pn" sidePair="left-right"/>
+    </component>
+    <component id="n9_p1pn" name="DeleteButton" src="p1pn3" fileName="Surface/Components/LayoutReviewDeleteButton.xml" xy="395,1288"/>
+    <image id="n16_kn0u" name="n16" src="kn0uf" fileName="Surface/Pics/border_ChaKan.png" xy="911,204"/>
+    <loader id="n10_p1pn" name="ReviewPicLoader" xy="913,206" size="1252,1188" align="center" vAlign="middle" fill="scale"/>
+    <component id="n11_p1pn" name="CloseButton" src="p1pn4" fileName="Surface/Components/CloseLayoutReviewButton.xml" xy="2282,104"/>
   </displayList>
 </component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,122">
+  <displayList>
+    <graph id="n0_f6ot" name="n0" xy="1219,0" pivot="0.5,0.5" size="122,122" type="rect" lineSize="25" lineColor="#ff00ff00" fillColor="#ff978dfe"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n0_f6ot" tween="true" startValue="0" endValue="360" duration="24"/>
+  </transition>
+</component>

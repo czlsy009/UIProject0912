@@ -6,6 +6,15 @@
     <component id="p1pn4" name="SchemeReviewMultiSightReviewButton.xml" path="/Components/"/>
     <component id="p1pn5" name="SchemeReviewDeleteButton.xml" path="/Components/"/>
     <component id="p1pn6" name="CloseSchemeReviewButton.xml" path="/Components/"/>
+    <image id="kn0u7" name="18_spec.png" path="/Pics/"/>
+    <image id="kn0u8" name="pop1.png" path="/Pics/"/>
+    <image id="kn0u9" name="icon_X2.png" path="/Pics/"/>
+    <image id="kn0ua" name="icon_X0.png" path="/Pics/"/>
+    <image id="kn0ub" name="button_ShanChu.png" path="/Pics/"/>
+    <image id="kn0uc" name="icon_BianJi2.png" path="/Pics/"/>
+    <image id="kn0ud" name="icon_BianJi0.png" path="/Pics/"/>
+    <image id="kn0ue" name="border_ChaKan.png" path="/Pics/"/>
+    <image id="kn0uf" name="button_ChaKan.png" path="/Pics/"/>
   </resources>
-  <publish name="SchemeReviewModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\SchemeReviewModule" genCode="true"/>
+  <publish name="SchemeReviewModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\Resources\UI\SchemeReviewModule" genCode="true" maxAtlasSize="4096"/>
 </packageDescription>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <displayList>
+    <image id="n6_kn0u" name="n6" src="kn0u3" fileName="Surface/Pics/pop3.png" xy="0,0"/>
+    <text id="n3_iqvs" name="TipText" xy="1275,442" size="10,59" fontSize="40" color="#808080" align="center" vAlign="middle" leading="58" text="">
+      <relation target="n6_kn0u" sidePair="center-center"/>
+    </text>
+    <component id="n4_iqvs" name="CancelButton" src="iqvs1" fileName="Surface/CancelDeleteButton.xml" xy="856,730"/>
+    <component id="n5_iqvs" name="ConfirmButton" src="iqvs2" fileName="Surface/ConfirmDeleteButton.xml" xy="858,918"/>
+    <component id="n7_f6ot" name="CloseButton" src="f6ot6" fileName="Surface/CloseButton.xml" xy="2102,202"/>
+  </displayList>
+</component>

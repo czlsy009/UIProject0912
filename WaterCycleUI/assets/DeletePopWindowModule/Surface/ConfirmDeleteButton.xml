@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="844,146" extention="Button" initName="ConfirmButton">
+  <controller name="button" pages="0,up,1,down" selected="1"/>
+  <displayList>
+    <loader id="n4_iqvs" name="icon" xy="0,0" size="844,146" url="ui://swv431pskn0u5" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n3_iqvs" name="title" xy="0,0" size="844,146" fontSize="60" color="#7a72cc" align="center" vAlign="middle" autoSize="none" singleLine="true" text="残忍删除">
+      <gearColor controller="button" pages="1" values="#7a72cc,#000000" default="#808080,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

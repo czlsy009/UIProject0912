@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,218" mask="n15_f6ot">
+  <displayList>
+    <image id="n13_f6ot" name="n13" src="f6ot7" fileName="Surface/Pics/picsborder.png" xy="0,0"/>
+    <loader id="n12_p1pn" name="icon" xy="0,0" size="218,218" align="center" vAlign="middle" fill="scale"/>
+    <graph id="n15_f6ot" name="n15" xy="0,0" size="218,218" type="eclipse" lineSize="0"/>
+  </displayList>
+</component>

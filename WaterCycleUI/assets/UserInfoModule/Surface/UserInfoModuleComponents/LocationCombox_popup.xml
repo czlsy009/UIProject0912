@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="328,499">
+  <displayList>
+    <graph id="n0_f6ot" name="n0" xy="0,0" size="328,499" touchable="false" type="rect" lineSize="0" lineColor="#ffa0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n1_f6ot" name="list" xy="0,0" size="328,499" overflow="scroll" scrollBarFlags="128" defaultItem="ui://xl56qh8cf6otk">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n1_f6ot" sidePair="height-height"/>
+</component>

@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="500,500">
+<component size="568,512" extention="Button" designImage="ui://x4sh6wmis58h5" designImageOffsetX="-66" designImageOffsetY="-172" designImageAlpha="25" designImageLayer="1">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <graph id="n2_p1pn" name="Bg" xy="0,0" size="500,500" type="rect"/>
-    <component id="n1_p1pn" name="MyhomeButton" src="p1pn2" fileName="MyhomeButtonSurface.xml" xy="0,0"/>
-    <component id="n3_p1pn" name="MultiSightReviewButton" src="p1pn3" fileName="MultiSightReviewButtonSurface.xml" xy="100,420"/>
+    <text id="n6_s58h" name="title" xy="0,428" size="568,84" fontSize="33" color="#949494" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n18_kn0u" name="n18" src="kn0ua" fileName="Surface/placeholder528px.png" xy="0,0"/>
+    <loader id="n7_s58h" name="icon" xy="0,0" size="568,428" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n8_s58h" name="n8" src="s58h7" fileName="Surface/Pic/card1_568pxborder0.png" xy="0,0"/>
+    <image id="n9_s58h" name="n9" src="s58h8" fileName="Surface/Pic/card_shadow1.png" xy="0,212"/>
+    <image id="n10_s58h" name="n10" src="s58h9" fileName="Surface/Pic/card1_568pxborder2_3.png" xy="0,0" size="568,512">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n15_s58h" name="LocationText" xy="23,309" size="73,45" fontSize="33" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="北京"/>
+    <text id="n16_s58h" name="HouseName" xy="96,308" size="353,45" fontSize="33" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="万科未来城"/>
+    <text id="n17_s58h" name="HouseTypeAndAreaSize" xy="23,365" size="477,45" fontSize="33" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="2室0厅1卫1厨|建筑面积 90㎡"/>
   </displayList>
+  <Button/>
 </component>

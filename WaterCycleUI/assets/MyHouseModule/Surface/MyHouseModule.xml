@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="2460,1280">
+<component size="2560,1478" designImage="ui://xogzhyigs58h5" designImageOffsetY="-122" designImageAlpha="0" designImageLayer="1">
   <displayList>
-    <graph id="n0_p1pn" name="1" xy="0,0" size="2460,1280" type="rect"/>
-    <loader id="n1_p1pn" name="Bg" xy="0,0" size="2460,1280"/>
-    <text id="n2_p1pn" name="title" xy="97,77" size="200,70" fontSize="48" singleLine="true" text="我的房源"/>
-    <graph id="n3_p1pn" name="SeperateLine" xy="0,204" size="2460,2" type="rect"/>
-    <component id="n4_p1pn" name="AddHouseButton" src="p1pn1" fileName="Surface/MyHouseModuleSurface/AddHouseButtonSurface.xml" xy="1915,62"/>
-    <list id="n5_p1pn" name="MyHouseList" xy="0,206" size="2460,1004" layout="flow_hz" overflow="scroll" margin="50,50,50,50" lineGap="50" colGap="50" defaultItem="ui://xogzhyigp1pn3" align="center">
+    <graph id="n0_p1pn" name="n1" xy="0,0" size="2560,1478" type="rect" lineSize="0"/>
+    <loader id="n1_p1pn" name="Bg" xy="0,0" size="2560,1478"/>
+    <component id="n4_p1pn" name="AddHouseButton" src="p1pn1" fileName="Surface/MyHouseModuleComponents/AddHouseButton.xml" xy="2198,58"/>
+    <list id="n5_p1pn" name="MyHouseList" xy="66,289" size="2428,1189" layout="flow_hz" overflow="scroll" margin="0,2,0,0" lineGap="48" colGap="52" defaultItem="ui://xogzhyigp1pn3">
       <item/>
       <item/>
       <item/>
@@ -19,6 +17,28 @@
       <item/>
       <item/>
     </list>
-    <component id="n7_p1pn" name="LoadDataTipText" src="p1pn0" fileName="Surface/LoadDataTipText.xml" pkg="xwplcvoa" xy="980,1210" controller="c1,2"/>
+    <component id="n7_p1pn" name="LoadDataTipText" src="p1pn0" fileName="Surface/LoadDataTipText.xml" pkg="xwplcvoa" xy="1008,1408" controller="c1,2"/>
+    <text id="n8_iqvs" name="n8" xy="65,65" size="104,49" fontSize="33" color="#949494" align="center" vAlign="middle" singleLine="true" text="户型："/>
+    <text id="n9_iqvs" name="n9" xy="65,143" size="104,49" fontSize="33" color="#949494" align="center" vAlign="middle" singleLine="true" text="面积："/>
+    <list id="n10_iqvs" name="HouseTypeFilterList" xy="165,65" size="1368,49" layout="row" colGap="48" defaultItem="ui://xogzhyigiqvs4" vAlign="middle">
+      <item title="全部" name="0"/>
+      <item title="一室" name="1"/>
+      <item title="两室" name="2"/>
+      <item title="三室" name="3"/>
+      <item title="四室" name="4"/>
+      <item title="五室" name="5"/>
+      <item title="五室以上" name="6"/>
+    </list>
+    <list id="n11_iqvs" name="HouseAreaSizeFilterList" xy="166,142" size="1368,49" layout="row" colGap="35" defaultItem="ui://xogzhyigs58h7" vAlign="middle">
+      <item url="ui://xogzhyigiqvs4" title="全部" name="0"/>
+      <item title="60㎡以下" name="1"/>
+      <item title="60-80㎡" name="2"/>
+      <item title="80-100㎡" name="3"/>
+      <item title="100-120㎡" name="4"/>
+      <item title="120-150㎡" name="5"/>
+      <item title="150㎡以上" name="6"/>
+    </list>
+    <graph id="n12_s58h" name="n12" xy="68,239" size="2424,2" type="rect" lineSize="0" fillColor="#ffeeeeee"/>
+    <text id="n14_f6ot" name="TipText" xy="1016,833" size="528,100" fontSize="60" color="#bdbdbd" align="center" vAlign="middle" autoSize="none" text="户型图过滤没啦！"/>
   </displayList>
 </component>

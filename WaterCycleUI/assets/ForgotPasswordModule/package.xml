@@ -4,8 +4,20 @@
     <component id="p1pn0" name="ForgotPasswordPage.xml" path="/" exported="true"/>
     <component id="p1pn1" name="ForgotPasswordTitle.xml" path="/"/>
     <component id="p1pn2" name="ForgotSendCodeButton.xml" path="/ForgotPasswordPageComponents/"/>
-    <component id="p1pn3" name="NextStepButton.xml" path="/ForgotPasswordPageComponents/"/>
-    <component id="p1pn4" name="CancelButton.xml" path="/ForgotPasswordPageComponents/"/>
+    <component id="f6ot5" name="CheckingCodeInputField.xml" path="/ForgotPasswordPageComponents/"/>
+    <image id="f6ot6" name="textfield1.png" path="/Pics/"/>
+    <component id="f6ot7" name="PasswordInputField.xml" path="/ForgotPasswordPageComponents/"/>
+    <component id="f6ot8" name="PhoneNumberInputField.xml" path="/ForgotPasswordPageComponents/"/>
+    <component id="f6ot9" name="SendCodeButton.xml" path="/ForgotPasswordPageComponents/"/>
+    <image id="f6ota" name="button_YanZhengMa_DaoJiShi.png" path="/Pics/"/>
+    <component id="f6otb" name="CancelButton.xml" path="/ForgotPasswordPageComponents/"/>
+    <image id="f6otc" name="button2.png" path="/Pics/"/>
+    <component id="f6otd" name="NextStepButton.xml" path="/ForgotPasswordPageComponents/"/>
+    <image id="f6ote" name="logo1.png" path="/Pics/"/>
+    <image id="f6otf" name="05_spec.png" path="/Pics/"/>
+    <image id="f6otg" name="bg2.png" path="/Pics/"/>
+    <component id="f6oth" name="BackButton.xml" path="/ForgotPasswordPageComponents/"/>
+    <image id="f6oti" name="icon_back2.png" path="/Pics/"/>
   </resources>
-  <publish name="ForgotPasswordModule" path="G:\GitHub\UnityAppMVCFramework\Framework\Assets\SelfCreated\LoginModule\Resources\UI\ForgotPasswordModule" genCode="true"/>
+  <publish name="ForgotPasswordModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\Resources\UI\ForgotPasswordModule" genCode="true" maxAtlasSize="4096"/>
 </packageDescription>

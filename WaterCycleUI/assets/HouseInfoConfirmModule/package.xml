@@ -6,6 +6,18 @@
     <component id="p1pn2" name="HouseInfoConfirmLocationButton.xml" path="/Surface/"/>
     <component id="p1pn3" name="ReChooseButton.xml" path="/Surface/"/>
     <component id="p1pn4" name="ConfirmCreatButton.xml" path="/Surface/"/>
+    <image id="kn0u5" name="28_spec.png" path="/Surface/Pics/"/>
+    <image id="kn0u6" name="nav_120px.png" path="/Surface/Pics/"/>
+    <image id="kn0u7" name="icon_back2.png" path="/Surface/Pics/"/>
+    <component id="kn0u8" name="CommunityNameInputField.xml" path="/Surface/"/>
+    <image id="kn0u9" name="textfield3.png" path="/Surface/Pics/"/>
+    <component id="kn0ua" name="HouseNumberInputField.xml" path="/Surface/"/>
+    <component id="kn0ub" name="LayoutNameInputField.xml" path="/Surface/"/>
+    <component id="kn0uc" name="FoorAreaInputField.xml" path="/Surface/"/>
+    <image id="kn0ud" name="button_HuXingChongXuan.png" path="/Surface/Pics/"/>
+    <image id="kn0ue" name="picsfield.png" path="/Surface/Pics/"/>
+    <image id="kn0uf" name="button_461px.png" path="/Surface/Pics/"/>
+    <component id="kn0ug" name="HouseInfoConfirmPageBody.xml" path="/Surface/"/>
   </resources>
-  <publish name="HouseInfoConfirmModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\HouseInfoConfirmModule" genCode="true"/>
+  <publish name="HouseInfoConfirmModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\HouseInfoConfirmModule" genCode="true" maxAtlasSize="4096"/>
 </packageDescription>

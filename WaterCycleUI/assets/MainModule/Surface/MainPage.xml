@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="2560,1600">
-  <controller name="c1" pages="0,MyHouse,1,MyHome,2,AddHouse,3,UserInfo" selected="2"/>
+<component size="2560,1600" designImage="ui://xlgtj8res58h3" designImageAlpha="15" designImageLayer="1" adaptationTest="FitHeightAndSetCenter">
+  <controller name="c1" pages="0,MyHouse,1,MyHome,2,AddHouse,3,UserInfo" selected="0"/>
   <displayList>
-    <loader id="n1_p1pn" name="TopBarBg" xy="0,0" size="2560,236"/>
-    <loader id="n6_p1pn" name="ModuleLoader" xy="0,236" size="2560,1364" url="ui://x6s0qorcp1pn0" align="center" vAlign="middle">
+    <graph id="n8_iqvs" name="n8" xy="0,0" size="2560,1600" type="rect" lineSize="0"/>
+    <loader id="n1_p1pn" name="TopBarBg" xy="0,0" size="2560,120"/>
+    <loader id="n6_p1pn" name="ModuleLoader" xy="0,122" size="2560,1478" url="ui://xogzhyigp1pn0" align="center" vAlign="middle">
       <gearIcon controller="c1" pages="0,1,2" values="ui://xogzhyigp1pn0|ui://x4sh6wmip1pn0|ui://x6s0qorcp1pn0" default="ui://xl56qh8cp1pn0"/>
     </loader>
-    <loader id="n2_p1pn" name="Logo" xy="46,44" size="316,148" group="n7_p1pn"/>
-    <list id="n3_p1pn" name="ModuleSelectButtonList" xy="540,44" size="1332,148" group="n7_p1pn" layout="row" colGap="100" defaultItem="ui://xlgtj8rep1pn1" vAlign="middle" selectionController="c1">
+    <image id="n2_p1pn" name="Logo" src="s58h4" fileName="Surface/Pics/logo2.png" xy="67,27" size="154,66" group="n7_p1pn"/>
+    <list id="n3_p1pn" name="ModuleSelectButtonList" xy="1398,0" size="761,120" group="n7_p1pn" layout="row" colGap="78" defaultItem="ui://xlgtj8rep1pn1" vAlign="middle" selectionController="c1">
       <item title="我的房源"/>
       <item title="我的晓家"/>
       <item title="添加房源"/>
     </list>
-    <component id="n5_p1pn" name="UserModuleButton" src="p1pn2" fileName="Surface/MainPageComponents/UserModuleButton.xml" xy="2006,48" group="n7_p1pn">
+    <component id="n5_p1pn" name="UserModuleButton" src="p1pn2" fileName="Surface/MainPageComponents/UserModuleButton.xml" xy="2187,0" group="n7_p1pn">
       <Button title="17778189826" controller="c1" page="3"/>
     </component>
-    <group id="n7_p1pn" name="MainTopBarGroup" xy="46,44" size="2460,148"/>
+    <group id="n7_p1pn" name="MainTopBarGroup" xy="67,0" size="2431,120"/>
+    <image id="n9_s58h" name="n9" src="s58h5" fileName="Surface/Pics/nav_shadow.png" xy="0,122"/>
+    <graph id="n10_s58h" name="n10" xy="0,120" size="2560,2" type="rect" lineSize="0" fillColor="#ffeeeeee"/>
   </displayList>
 </component>

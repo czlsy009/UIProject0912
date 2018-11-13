@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="500,140" overflow="hidden" extention="Button" initName="UserModuleButton">
+<component size="311,120" overflow="hidden" extention="Button" initName="UserModuleButton">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <graph id="n0_p1pn" name="n0" xy="0,0" size="500,140" touchable="false" type="rect" lineSize="0" fillColor="#fff0f0f0">
+    <graph id="n0_p1pn" name="n0" xy="0,0" size="311,120" touchable="false" type="rect" lineSize="0" fillColor="#00f0f0f0">
       <gearDisplay controller="button" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n1_p1pn" name="n1" xy="0,0" size="500,140" touchable="false" type="rect" lineSize="0" fillColor="#fffafafa">
+    <graph id="n1_p1pn" name="n1" xy="0,0" size="311,120" touchable="false" type="rect" lineSize="0" fillColor="#00f0f0f0">
       <gearDisplay controller="button" pages="2"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n2_p1pn" name="n2" xy="0,0" size="500,140" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc">
+    <image id="n2_p1pn" name="n2" src="s58h6" fileName="Surface/Pics/nav_choosed.png" xy="0,108" size="311,12">
       <gearDisplay controller="button" pages="1,3"/>
       <relation target="" sidePair="width-width,height-height"/>
-    </graph>
-    <text id="n3_p1pn" name="title" xy="140,0" size="359,140" fontSize="48" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+    </image>
+    <text id="n3_p1pn" name="title" xy="91,0" size="223,120" fontSize="40" color="#808080" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
-    <loader id="n4_p1pn" name="icon" xy="0,0" size="140,140" align="center" vAlign="middle" fill="scale">
-      <relation target="" sidePair="width-width,height-height"/>
-    </loader>
+    <component id="n4_p1pn" name="CircleHead" src="kn0u7" fileName="Surface/MainPageComponents/CircleHead.xml" xy="0,26"/>
   </displayList>
-  <Button/>
+  <Button mode="Radio"/>
 </component>

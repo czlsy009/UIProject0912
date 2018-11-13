@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="500,500">
+<component size="568,512" designImage="ui://x6s0qorckn0u8" designImageOffsetX="-66" designImageOffsetY="-941" designImageAlpha="25" designImageLayer="1">
   <displayList>
-    <graph id="n2_p1pn" name="Bg" xy="0,0" size="500,500" type="rect"/>
-    <component id="n1_p1pn" name="HouseReviewButton" src="p1pn2" fileName="Surface/HouseLibModuleComponents/HouseReviewButtonSurface.xml" xy="0,0"/>
-    <component id="n3_p1pn" name="UseHouseButton" src="p1pn3" fileName="Surface/HouseLibModuleComponents/UseHouseButtonSurface.xml" xy="0,430"/>
-    <graph id="n4_p1pn" name="SeperateLine" xy="0,425" size="500,1" type="rect"/>
+    <image id="n5_kn0u" name="n5" src="kn0ui" fileName="Surface/Pics/card1_568pxborder0.png" xy="0,0"/>
+    <image id="n7_kn0u" name="n7" src="kn0uj" fileName="Surface/Pics/placeholder528px.png" xy="0,0"/>
+    <component id="n3_p1pn" name="UseHouseButton" src="p1pn3" fileName="Surface/HouseLibModuleComponents/UseHouseButton.xml" xy="0,430" controller="button,0"/>
+    <component id="n1_p1pn" name="HouseReviewButton" src="p1pn2" fileName="Surface/HouseLibModuleComponents/HouseReviewButton.xml" xy="0,0"/>
   </displayList>
 </component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="687,93">
+  <displayList>
+    <image id="n15_f6ot" name="n15" src="f6ot9" fileName="Surface/Pics/textfield3.png" xy="0,0"/>
+    <text id="n16_f6ot" name="title" xy="52,0" size="583,93" input="true" prompt="[color=#e5e5e5]请输入邮箱[/color]" fontSize="40" color="#b2b2b2" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+  </displayList>
+</component>

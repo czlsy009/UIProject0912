@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="844,146" extention="Label">
+  <displayList>
+    <image id="n10_f6ot" name="n10" src="f6otf" fileName="Pics/textfield1.png" xy="0,0"/>
+    <text id="n11_f6ot" name="title" xy="261,23" size="417,100" input="true" prompt="[color=#e5e5e5]请输入短信[/color]" maxLength="6" restrict="“[0-9]”" keyboardType="4" fontSize="60" color="#b2b2b2" vAlign="middle" leading="0" autoSize="none" singleLine="true" text=""/>
+    <text id="n12_f6ot" name="n12" xy="46,23" size="205,100" fontSize="60" color="#808080" vAlign="middle" autoSize="none" text="验证码"/>
+  </displayList>
+</component>

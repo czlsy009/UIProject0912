@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="500,430" extention="Button" initName="LayoutItemIcon">
+<component size="542,410" extention="Button" initName="LayoutItemIcon">
   <displayList>
-    <graph id="n8_iqvs" name="n8" xy="0,0" size="500,430" type="rect"/>
-    <loader id="n7_p1pn" name="icon" xy="0,0" size="500,430" align="center" vAlign="middle" fill="scale">
+    <image id="n10_kn0u" name="n10" src="kn0uq" fileName="Surface/Pics/card2_543pxborder0.png" xy="0,0"/>
+    <image id="n12_kn0u" name="n12" src="kn0uv" fileName="Surface/placeholder528px.png" xy="-13,0"/>
+    <loader id="n7_p1pn" name="icon" xy="0,0" size="542,410" align="center" vAlign="middle" fill="scale">
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
+    <image id="n9_kn0u" name="n9" src="kn0up" fileName="Surface/Pics/card_shadow2.png" xy="0,312"/>
   </displayList>
   <Button downEffect="dark" downEffectValue="0.80"/>
 </component>

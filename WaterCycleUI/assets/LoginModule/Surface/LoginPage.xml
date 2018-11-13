@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="2560,1600">
+<component size="2560,1600" extention="Label" designImage="ui://toz5ngg2s58hr" designImageLayer="1">
   <displayList>
-    <graph id="n11_kp3v" name="Bg" xy="0,0" size="2560,1600" type="rect"/>
+    <image id="n11_kp3v" name="Bg" src="s58hs" fileName="Pics/bg2.png" xy="0,0" size="2560,1600"/>
     <graph id="n1_sqee" name="contentArea" xy="0,0" size="2560,1600"/>
-    <component id="n0_xbac" name="LoginButton" src="xbac2" fileName="Surface/LoginPageComponents/LoginButton.xml" xy="1080,1233" aspect="true" touchable="false" grayed="true"/>
-    <component id="n2_kp3v" name="SignUpButton" src="kp3vc" fileName="Surface/LoginPageComponents/SignUpButton.xml" xy="1080,1063"/>
-    <loader id="n3_kp3v" name="Logo" xy="911,144" size="737,179" align="center" vAlign="middle" fill="scaleMatchHeight" shrinkOnly="true" color="#00ff00"/>
-    <text id="n4_kp3v" name="PhoneNumberInputField" xy="793,494" size="973,144" input="true" prompt="手机号" maxLength="11" keyboardType="4" fontSize="60" autoSize="none" singleLine="true" text="18001183441"/>
-    <text id="n5_kp3v" name="PasswordInputField" xy="793,706" size="973,144" input="true" prompt="登录密码" maxLength="11" password="true" fontSize="60" autoSize="none" singleLine="true" text="123456"/>
-    <component id="n9_kp3v" name="ForgotPasswordButton" src="kp3vd" fileName="Surface/LoginPageComponents/ForgotPasswordButton.xml" xy="1516,924"/>
-    <component id="n12_kp3v" name="Title" src="kp3ve" fileName="Surface/Title.xml" xy="1080,359">
-      <Label title="登录" titleFontSize="60"/>
-    </component>
+    <component id="n0_xbac" name="LoginButton" src="xbac2" fileName="Surface/LoginPageComponents/LoginButton.xml" xy="1362,921" aspect="true" touchable="false" grayed="true"/>
+    <component id="n2_kp3v" name="SignUpButton" src="kp3vc" fileName="Surface/LoginPageComponents/SignUpButton.xml" xy="1362,1131"/>
+    <loader id="n3_kp3v" name="Logo" xy="1638,162" size="290,124" url="ui://toz5ngg2s58ht" align="center" vAlign="middle" autoSize="true"/>
+    <component id="n4_kp3v" name="PhoneNumberInputField" src="f6otu" fileName="Surface/LoginPageComponents/PhoneNumberInputField.xml" xy="1362,440"/>
+    <component id="n5_kp3v" name="PasswordInputField" src="f6otv" fileName="Surface/LoginPageComponents/PasswordInputField.xml" xy="1362,650"/>
+    <component id="n9_kp3v" name="ForgotPasswordButton" src="kp3vd" fileName="Surface/LoginPageComponents/ForgotPasswordButton.xml" xy="2022,826" size="180,60"/>
+    <component id="n13_f6ot" name="BackButon" src="f6otz" fileName="Surface/LoginPageComponents/BackButton.xml" xy="842,1418"/>
   </displayList>
 </component>

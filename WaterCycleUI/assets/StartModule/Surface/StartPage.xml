@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <displayList>
+    <image id="n0_f6ot" name="n0" src="f6ot1" fileName="Surface/Pics/bg1.png" xy="0,0"/>
+    <component id="n1_f6ot" name="LoginButton" src="f6ot3" fileName="Surface/Components/LoginButton.xml" xy="919,916"/>
+    <component id="n2_f6ot" name="SignButton" src="f6ot4" fileName="Surface/Components/SignButton.xml" xy="919,1128"/>
+    <component id="n3_f6ot" name="ExitButton" src="f6ot6" fileName="Surface/Components/ExitButton.xml" xy="2161,1361"/>
+  </displayList>
+</component>

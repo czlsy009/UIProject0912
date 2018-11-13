@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="776,76">
+  <displayList>
+    <image id="n1_f6ot" name="n1" src="f6otm" fileName="Surface/Pics/tip.png" xy="0,0"/>
+    <text id="n0_f6ot" name="n0" xy="0,0" size="776,76" fontSize="33" color="#bdbdbd" align="center" vAlign="middle" autoSize="shrink" text=""/>
+  </displayList>
+</component>

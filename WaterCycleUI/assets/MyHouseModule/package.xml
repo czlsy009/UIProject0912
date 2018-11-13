@@ -4,6 +4,15 @@
     <component id="p1pn0" name="MyHouseModule.xml" path="/Surface/" exported="true"/>
     <component id="p1pn1" name="AddHouseButton.xml" path="/Surface/MyHouseModuleComponents/"/>
     <component id="p1pn3" name="MyhouseListItem.xml" path="/Surface/" exported="true"/>
+    <component id="iqvs4" name="MyHouseTypeFilterButton.xml" path="/Surface/MyHouseModuleComponents/"/>
+    <image id="s58h5" name="15_spec.png" path="/Surface/Pic/"/>
+    <image id="s58h6" name="button_TianJiaFangYuan.png" path="/Surface/Pic/"/>
+    <component id="s58h7" name="MyHouseAreaFilterButton.xml" path="/Surface/MyHouseModuleComponents/"/>
+    <image id="s58h8" name="card_shadow1.png" path="/Surface/Pic/"/>
+    <image id="s58h9" name="card1_568pxborder0.png" path="/Surface/Pic/"/>
+    <image id="s58ha" name="card1_568pxborder2_3.png" path="/Surface/Pic/"/>
+    <image id="kn0ub" name="placeholder528px.png" path="/Surface/Pic/"/>
+    <image id="f6otc" name="bg2.png" path="/Surface/Pic/"/>
   </resources>
-  <publish name="MyHouseModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\MyHouseModule" genCode="true"/>
+  <publish name="MyHouseModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\Resources\UI\MyHouseModule" genCode="true"/>
 </packageDescription>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1153,112" initName="HouseSearchKeywordInputField">
+  <displayList>
+    <image id="n4_kn0u" name="n4" src="kn0ud" fileName="Surface/Pics/textfield_search.png" xy="-237,0"/>
+    <text id="n3_p1pn" name="title" xy="30,0" size="1122,112" input="true" prompt="[color=#e5e5e5]可输入小区或楼盘名称查询[/color]" fontSize="33" color="#b2b2b2" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text=""/>
+  </displayList>
+</component>

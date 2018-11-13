@@ -2,19 +2,19 @@
 <component size="200,100" extention="Button" initName="LocationButton">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <graph id="n0_p1pn" name="n0" xy="0,0" size="200,100" touchable="false" type="rect" lineSize="0" fillColor="#fff0f0f0">
+    <graph id="n0_p1pn" name="n0" xy="0,0" size="200,100" touchable="false" type="rect" lineSize="0" fillColor="#03f0f0f0">
       <gearDisplay controller="button" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n1_p1pn" name="n1" xy="0,0" size="200,100" touchable="false" type="rect" lineSize="0" fillColor="#fffafafa">
+    <graph id="n1_p1pn" name="n1" xy="0,0" size="200,100" touchable="false" type="rect" lineSize="0" fillColor="#03f0f0f0">
       <gearDisplay controller="button" pages="2"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n2_p1pn" name="n2" xy="0,0" size="200,100" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc">
+    <graph id="n2_p1pn" name="n2" xy="0,0" size="200,100" touchable="false" type="rect" lineSize="0" fillColor="#03f0f0f0">
       <gearDisplay controller="button" pages="1,3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n3_p1pn" name="title" xy="50,0" size="150,100" fontSize="40" align="center" vAlign="middle" autoSize="none" singleLine="true" text="哈尔滨">
+    <text id="n3_p1pn" name="title" xy="50,0" size="150,100" fontSize="40" color="#b2b2b2" align="center" vAlign="middle" autoSize="none" singleLine="true" text="北京">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
     <loader id="n4_p1pn" name="icon" xy="0,0" size="50,100" align="center" vAlign="middle">

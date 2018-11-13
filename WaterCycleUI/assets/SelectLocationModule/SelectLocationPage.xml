@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="2560,1600">
   <displayList>
-    <graph id="n0_iqvs" name="n0" xy="0,0" size="2560,1600" type="rect" fillColor="#b3000000"/>
-    <component id="n1_iqvs" name="ProvinceCombox" src="iqvs7" fileName="ProvinceComboBox/LocationComboBox.xml" xy="188,120">
-      <ComboBox title="请选择省份" visibleItemCount="6" direction="down">
-        <item title="1" icon="ui://sl21z51miqvs5"/>
-        <item title="2" icon="ui://sl21z51miqvs5"/>
-        <item title="3" icon="ui://sl21z51miqvs5"/>
-        <item title="4" icon="ui://sl21z51miqvs5"/>
-        <item icon="ui://sl21z51miqvs5"/>
-        <item icon="ui://sl21z51miqvs5"/>
-        <item icon="ui://sl21z51miqvs5"/>
-        <item icon="ui://sl21z51miqvs5"/>
-        <item/>
-        <item/>
-        <item/>
-        <item/>
+    <image id="n5_f6ot" name="n5" src="f6otc" fileName="Pics/pop3.png" xy="0,0"/>
+    <component id="n1_iqvs" name="ProvinceCombox" src="f6otd" fileName="LocationComboBox/LocationCombox.xml" xy="844,636">
+      <ComboBox title="[color=#e5e5e5]省/市[/color]" visibleItemCount="6" direction="down" autoClearItems="true">
+        <item title="1" icon="ui://sl21z51mf6oti"/>
+        <item title="2" icon="ui://sl21z51mf6oti"/>
+        <item title="3" icon="ui://sl21z51mf6oti"/>
+        <item title="4" icon="ui://sl21z51mf6oti"/>
+        <item title="5" icon="ui://sl21z51mf6oti"/>
+        <item title="6" icon="ui://sl21z51mf6oti"/>
+        <item title="7" icon="ui://sl21z51mf6oti"/>
+        <item title="8" icon="ui://sl21z51mf6oti"/>
+        <item title="9" icon="ui://sl21z51mf6oti"/>
+        <item title="10" icon="ui://sl21z51mf6oti"/>
+        <item title="11" icon="ui://sl21z51mf6oti"/>
+        <item title="12" icon="ui://sl21z51mf6oti"/>
       </ComboBox>
     </component>
-    <component id="n2_iqvs" name="CityComboBox" src="iqvs7" fileName="ProvinceComboBox/LocationComboBox.xml" xy="1356,120">
-      <ComboBox title="请选择城市" visibleItemCount="6" direction="down"/>
+    <component id="n2_iqvs" name="CityComboBox" src="f6otd" fileName="LocationComboBox/LocationCombox.xml" xy="1372,636">
+      <ComboBox title="[color=#e5e5e5]市/区[/color]" visibleItemCount="6" direction="down" autoClearItems="true">
+        <item title="1" icon="ui://sl21z51mf6oti"/>
+        <item title="2" icon="ui://sl21z51mf6oti"/>
+        <item title="3" icon="ui://sl21z51mf6oti"/>
+        <item title="4" icon="ui://sl21z51mf6oti"/>
+        <item title="5" icon="ui://sl21z51mf6oti"/>
+        <item title="6" icon="ui://sl21z51mf6oti"/>
+        <item title="7" icon="ui://sl21z51mf6oti"/>
+      </ComboBox>
     </component>
-    <component id="n3_iqvs" name="ConfirmButton" src="iqvsa" fileName="ConfirmLocationButton.xml" xy="188,1236" touchable="false" grayed="true">
+    <component id="n3_iqvs" name="ConfirmButton" src="iqvsa" fileName="ConfirmLocationButton.xml" xy="856,915" touchable="false" grayed="true">
       <Button title="确定"/>
     </component>
-    <component id="n4_iqvs" name="CloseButton" src="iqvsb" fileName="CloseSelectLocationButton.xml" xy="1356,1236">
+    <component id="n4_iqvs" name="CloseButton" src="f6otj" fileName="LocationComboBox/CloseButton.xml" xy="2102,202">
       <Button title="取消"/>
     </component>
+    <text id="n6_f6ot" name="n6" xy="1144,333" size="266,100" fontSize="60" color="#b2b2b2" align="center" vAlign="middle" autoSize="none" text="选择位置"/>
+    <text id="n7_f6ot" name="n7" xy="1093,440" size="372,50" fontSize="33" color="#cccccc" align="center" vAlign="middle" autoSize="none" text="请选择您所在的城市"/>
   </displayList>
 </component>

@@ -5,6 +5,15 @@
     <component id="p1pn1" name="LayoutReviewEditInfoButton.xml" path="/Surface/Components/"/>
     <component id="p1pn3" name="LayoutReviewDeleteButton.xml" path="/Surface/Components/"/>
     <component id="p1pn4" name="CloseLayoutReviewButton.xml" path="/Surface/Components/"/>
+    <image id="kn0u5" name="18_spec.png" path="/Surface/Pics/"/>
+    <image id="kn0u7" name="pop1.png" path="/Surface/Pics/"/>
+    <image id="kn0ua" name="icon_X2.png" path="/Surface/Pics/"/>
+    <image id="kn0ub" name="icon_X0.png" path="/Surface/Pics/"/>
+    <image id="kn0uc" name="button_ShanChu.png" path="/Surface/Pics/"/>
+    <image id="kn0ud" name="icon_BianJi2.png" path="/Surface/Pics/"/>
+    <image id="kn0ue" name="icon_BianJi0.png" path="/Surface/Pics/"/>
+    <image id="kn0uf" name="border_ChaKan.png" path="/Surface/Pics/"/>
+    <image id="kn0ug" name="button_ChaKan.png" path="/Surface/Pics/"/>
   </resources>
-  <publish name="LayoutReviewModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\LayoutReviewModule" genCode="true"/>
+  <publish name="LayoutReviewModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\Resources\UI\LayoutReviewModule" genCode="true" maxAtlasSize="4096"/>
 </packageDescription>

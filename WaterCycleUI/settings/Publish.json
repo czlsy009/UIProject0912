@@ -2,15 +2,15 @@
 	"binaryFormat":true,
 	"codeGeneration":{
 		"classNamePrefix":"UI",
-		"codePath":"C:\\Users\\3plus-9\\Desktop\\FGUIExport\\Scripts",
+		"codePath":"G:\\GitHub\\WaterCycle\\HomePlus\\Assets\\SelfCreated\\Scripts\\MVC\\Views",
 		"codeType":"",
 		"getMemberByName":true,
 		"ignoreNoname":false,
-		"memberNamePrefix":"m",
+		"memberNamePrefix":"",
 		"packageName":""
 	},
 	"compressDesc":true,
 	"fileExtension":"",
 	"packageCount":2,
-	"path":"G:\\GitHub\\UnityAppMVCFramework\\Framework\\Assets\\SelfCreated\\LoginModule\\Resources\\UI\\SignUpModule"
+	"path":"G:\\GitHub\\WaterCycle\\HomePlus\\Assets\\SelfCreated\\Resources\\UI"
 }

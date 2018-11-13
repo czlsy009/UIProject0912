@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="nfp1ezmn" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="f6ot0" name="StartPage.xml" path="/Surface/" exported="true"/>
+    <image id="f6ot1" name="bg1.png" path="/Surface/Pics/"/>
+    <image id="f6ot2" name="button1.png" path="/Surface/Pics/"/>
+    <component id="f6ot3" name="LoginButton.xml" path="/Surface/Components/"/>
+    <component id="f6ot4" name="SignButton.xml" path="/Surface/Components/"/>
+    <image id="f6ot5" name="button_TuiChu.png" path="/Surface/Pics/"/>
+    <component id="f6ot6" name="ExitButton.xml" path="/Surface/Components/"/>
+  </resources>
+  <publish name="StartModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\Resources\UI\StartModule" genCode="true" maxAtlasSize="4096"/>
+</packageDescription>

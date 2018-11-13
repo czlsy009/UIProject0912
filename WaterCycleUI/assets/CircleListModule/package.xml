@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="sx0fhcwe" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="iqvs0" name="CircleList.xml" path="/" exported="true"/>
+    <component id="iqvs1" name="CircleListItemButton.xml" path="/"/>
+    <image id="iqvs2" name="check-box.png" path="/"/>
+  </resources>
+  <publish name="CircleListModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\CircleListModule" genCode="true"/>
+</packageDescription>

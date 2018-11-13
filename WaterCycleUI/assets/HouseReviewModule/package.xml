@@ -4,6 +4,16 @@
     <component id="iqvs0" name="HouseReviewPage.xml" path="/Surface/" exported="true"/>
     <component id="iqvs2" name="HouseReviewUseButton.xml" path="/Surface/Components/"/>
     <component id="iqvs3" name="CloseHouseReviewButton.xml" path="/Surface/Components/"/>
+    <image id="kn0u4" name="18_spec.png" path="/Surface/Pics/"/>
+    <image id="kn0u5" name="pop1.png" path="/Surface/Pics/"/>
+    <image id="kn0u8" name="button_ShanChu.png" path="/Surface/Pics/"/>
+    <image id="kn0u9" name="icon_BianJi2.png" path="/Surface/Pics/"/>
+    <image id="kn0ua" name="icon_BianJi0.png" path="/Surface/Pics/"/>
+    <image id="kn0ub" name="border_ChaKan.png" path="/Surface/Pics/"/>
+    <image id="kn0uc" name="button_ChaKan.png" path="/Surface/Pics/"/>
+    <component id="f6otg" name="CloseButton.xml" path="/Surface/Components/"/>
+    <image id="f6oth" name="icon_X2.png" path="/Surface/Pics/"/>
+    <image id="f6oti" name="icon_X0.png" path="/Surface/Pics/"/>
   </resources>
-  <publish name="HouseReviewModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\HouseReviewModule" genCode="true"/>
+  <publish name="HouseReviewModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\Resources\UI\HouseReviewModule" genCode="true" maxAtlasSize="4096"/>
 </packageDescription>

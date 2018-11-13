@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="500,420" extention="Button" initName="HouseReviewButton">
+<component size="568,428" extention="Button" initName="HouseReviewButton" designImage="ui://x6s0qorckn0u8" designImageOffsetX="-66" designImageOffsetY="-941" designImageAlpha="25" designImageLayer="1">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <graph id="n0_p1pn" name="n0" xy="0,0" size="500,420" touchable="false" type="rect" lineSize="0" fillColor="#fff0f0f0">
+    <graph id="n0_p1pn" name="n0" xy="0,0" size="568,428" touchable="false" type="rect" lineSize="0" fillColor="#00fafafa">
       <gearDisplay controller="button" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n1_p1pn" name="n1" xy="0,0" size="500,420" touchable="false" type="rect" lineSize="0" fillColor="#fffafafa">
+    <graph id="n1_p1pn" name="n1" xy="0,0" size="568,428" touchable="false" type="rect" lineSize="0" fillColor="#00fafafa">
       <gearDisplay controller="button" pages="2"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n2_p1pn" name="n2" xy="0,0" size="500,420" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc">
-      <gearDisplay controller="button" pages="1,3"/>
-      <relation target="" sidePair="width-width,height-height"/>
-    </graph>
-    <loader id="n4_p1pn" name="icon" xy="0,0" size="500,300" align="center" vAlign="middle" fill="scale">
+    <loader id="n4_p1pn" name="icon" xy="0,0" size="568,428" url="ui://x6s0qorckn0uj" align="center" vAlign="middle" fill="scale">
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
-    <text id="n10_p1pn" name="LocationText" xy="53,314" size="73,45" fontSize="30" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="北京"/>
-    <text id="n11_p1pn" name="HouseName" xy="135,314" size="353,45" fontSize="30" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="万科未来城"/>
-    <text id="n12_p1pn" name="HouseTypeAndAreaSize" xy="12,363" size="477,45" fontSize="30" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="2室0厅1卫1厨|建筑面积 90㎡"/>
+    <image id="n2_p1pn" name="n2" src="kn0ug" fileName="Surface/Pics/card1_568pxborder2_3.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n14_kn0u" name="n14" src="kn0uh" fileName="Surface/Pics/card_shadow1.png" xy="0,212"/>
+    <text id="n10_p1pn" name="LocationText" xy="24,309" size="73,45" fontSize="33" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="北京"/>
+    <text id="n11_p1pn" name="HouseName" xy="97,309" size="171,49" fontSize="33" color="#ffffff" vAlign="middle" singleLine="true" autoClearText="true" text="万科未来城"/>
+    <text id="n12_p1pn" name="HouseTypeAndAreaSize" xy="23,366" size="477,45" fontSize="33" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="2室0厅1卫1厨|建筑面积 90㎡"/>
   </displayList>
   <Button/>
 </component>

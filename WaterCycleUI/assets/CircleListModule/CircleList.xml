@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1000,100">
+  <displayList>
+    <list id="n0_iqvs" name="n0" xy="0,0" size="1000,100" layout="row" overflow="scroll" scroll="horizontal" colGap="12" defaultItem="ui://sx0fhcweiqvs1" vAlign="middle">
+      <item title="1"/>
+      <item title="2"/>
+      <item title="3"/>
+      <item title="4"/>
+      <item title="5"/>
+      <item title="6"/>
+      <item title="7"/>
+      <item title="8"/>
+      <item title="9"/>
+      <item title="10"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

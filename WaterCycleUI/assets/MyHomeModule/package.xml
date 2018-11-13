@@ -5,6 +5,12 @@
     <component id="p1pn2" name="MyhomeButton.xml" path="/Surface/MyHomeModuleComponents/"/>
     <component id="p1pn3" name="MultiSightReviewButton.xml" path="/Surface/MyHomeModuleComponents/"/>
     <component id="p1pn4" name="MyHomeListItem.xml" path="/Surface/" exported="true"/>
+    <image id="s58h5" name="24_spec.png" path="/Surface/Pics/"/>
+    <image id="s58h6" name="15_spec.png" path="/Surface/Pics/"/>
+    <image id="s58h7" name="card1_568pxborder0.png" path="/Surface/Pic/"/>
+    <image id="s58h8" name="card_shadow1.png" path="/Surface/Pic/"/>
+    <image id="s58h9" name="card1_568pxborder2_3.png" path="/Surface/Pic/"/>
+    <image id="kn0ua" name="placeholder528px.png" path="/Surface/Pics/"/>
   </resources>
   <publish name="MyHomeModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\MyHomeModule" genCode="true"/>
 </packageDescription>

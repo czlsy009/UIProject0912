@@ -4,6 +4,11 @@
     <component id="p1pn0" name="MainPage.xml" path="/Surface/" exported="true"/>
     <component id="p1pn1" name="ModuleSelectButton.xml" path="/Surface/MainPageComponents/"/>
     <component id="p1pn2" name="UserModuleButton.xml" path="/Surface/MainPageComponents/"/>
+    <image id="s58h3" name="15_spec.png" path="/Surface/Pics/"/>
+    <image id="s58h4" name="logo2.png" path="/Surface/Pics/"/>
+    <image id="s58h5" name="nav_shadow.png" path="/Surface/Pics/"/>
+    <image id="s58h6" name="nav_choosed.png" path="/Surface/Pics/"/>
+    <component id="kn0u7" name="CircleHead.xml" path="/Surface/MainPageComponents/"/>
   </resources>
-  <publish name="MainModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\LoginModule\Resources\UI\MainModule" genCode="true"/>
+  <publish name="MainModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\Resources\UI\MainModule" genCode="true" maxAtlasSize="4096"/>
 </packageDescription>

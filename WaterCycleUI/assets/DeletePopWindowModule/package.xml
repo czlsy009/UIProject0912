@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="swv431ps" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="iqvs0" name="DeletePopWindow.xml" path="/Surface/" exported="true"/>
+    <component id="iqvs1" name="CancelDeleteButton.xml" path="/Surface/"/>
+    <component id="iqvs2" name="ConfirmDeleteButton.xml" path="/Surface/"/>
+    <image id="kn0u3" name="pop3.png" path="/Surface/Pics/"/>
+    <image id="kn0u4" name="button2.png" path="/Surface/Pics/"/>
+    <image id="kn0u5" name="button3.png" path="/Surface/Pics/"/>
+    <component id="f6ot6" name="CloseButton.xml" path="/Surface/"/>
+    <image id="f6ot7" name="icon_X2.png" path="/Surface/Pics/"/>
+    <image id="f6ot8" name="icon_X0.png" path="/Surface/Pics/"/>
+  </resources>
+  <publish name="DeletePopWindowModule" path="G:\GitHub\WaterCycle\HomePlus\Assets\SelfCreated\Resources\UI\DeletePopWindowModule" genCode="true" maxAtlasSize="4096"/>
+</packageDescription>
